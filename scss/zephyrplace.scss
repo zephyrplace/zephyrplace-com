@@ -1,0 +1,20 @@
+// 1. Import the initial variables
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+@import "../node_modules/bulma/sass/utilities/functions";
+
+
+
+// Add a serif family
+$family-serif: 'Montserrat', sans-serif;
+
+// 3. Set the derived variables
+// Use the new pink as the primary color
+$primary: #6a6a6a;
+$primary-invert: #d0d0d0;
+
+// Use the new serif family
+$family-primary: $family-serif;
+
+// 6. Import the rest of Bulma
+@import "../node_modules/bulma/bulma";
+@import "./custom.scss";
