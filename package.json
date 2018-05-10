@@ -1,0 +1,32 @@
+{
+  "name": "zephyrplace-com",
+  "version": "1.0.0",
+  "description": "zephyr place website",
+  "private": true,
+  "scripts": {
+    "build": "sass scss/zephyrplace.scss index.css && cleancss -o index.min.css index.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zephyrplace/zephyrplace-com.git"
+  },
+  "keywords": [
+    "zephyr",
+    "place",
+    "website"
+  ],
+  "author": "tiago-marques",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zephyrplace/zephyrplace-com/issues"
+  },
+  "homepage": "https://github.com/zephyrplace/zephyrplace-com#readme",
+  "devDependencies": {
+    "clean-css-cli": "^4.1.11",
+    "sass": "^1.3.2"
+  },
+  "dependencies": {
+    "bulma": "^0.7.1"
+  }
+}
