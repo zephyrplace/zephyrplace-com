@@ -18,27 +18,28 @@
     <meta name="description" content="zephyr place website">
     <meta name="author" content="tiago-marques">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" integrity="sha256-oSrCnRYXvHG31SBifqP2PM1uje7SJUyX0nTwO2RJV54="
-        crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
-    <link rel="stylesheet" href="index.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+        crossorigin="anonymous" media="bogus" onload="if(media!='all')media='all'" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet" media="bogus" onload="if(media!='all')media='all'">
+    <link rel="stylesheet" href="index.min.css" media="bogus" onload="if(media!='all')media='all'">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js" async></script>
     <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js" async></script>
   <![endif]-->
 </head>
 
 <body>
     <div class="background-absolute">
         <div class="background-absolute-content">
-            <img class="background-absolute-item opacity" src="assets/textura6.svg" />
-            <img class="background-absolute-item opacity flip-horizontal" src="assets/textura6.svg" />
+            <img class="background-absolute-item opacity" src="assets/background-logo.png" alt="background abstract image" />
+            <img class="background-absolute-item opacity flip-horizontal" src="assets/background-logo.png" alt="background abstract image"
+            />
         </div>
     </div>
 
     <section class="section">
         <div class="container">
             <div class="flex">
-                <img class="center" src="assets/LOGOPRETOSVG.svg" width="450px" />
+                <img class="center" src="assets/zp-logo.svg" width="450px" alt="zephyr place logo" />
             </div>
         </div>
     </section>
@@ -131,8 +132,20 @@
     </section>
     <section class="section">
         <div class="container">
-            <div class="flex">
-                <img class="center" src="assets/leanstartup.jpg" />
+            <div class="flex flex-column">
+                <img class="center" src="assets/leanstartup.jpg" alt="The Lean Startup book cover" />
+                <span class="center">(The Lean Startup - The New York Times Bestseller book cover)</span>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="flex flex-column">
+                <img class="center" src="assets/makingsenseofMVP.jpg" alt="
+                The image shows an evolution from 1 to 4 with process drawings to a car, where 1 is only a wheel with the sad customer's face, where 2 are two wheels with sad customer's face, where 3 is a car without a steering wheel with the customer's face sad, where 4 is a face with the cheeky customer face. This image has a big red X with a title not like this. Below we have an image that shows the evolution from 1 to 5 with process drawings up to a car, where 1 is a skateboard with the customer's normal face, where 2 is a scooter with the customer's normal face, where 3 is a bicycle with the normal customer's face, where 4 is a motorcycle with cheerful customer face, where 5 is a car with the customer's smiling face. This image is titled like this!."
+                />
+                <span class="center">(image from
+                    <a href="https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp">crisp blog</a>)</span>
             </div>
         </div>
     </section>
@@ -150,6 +163,15 @@
         </div>
     </footer>
     <!-- <script src="js/scripts.js"></script> -->
+    <script>
+        // Check that service workers are registered
+        if ('serviceWorker' in navigator) {
+            // Use the window load event to keep the page load performant
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js');
+            });
+        }
+    </script>
 </body>
 
 </html>
