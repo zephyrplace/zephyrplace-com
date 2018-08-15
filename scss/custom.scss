@@ -15,6 +15,10 @@ $tablet: "(min-width: 768px) and (max-width: 1023px)";
     justify-self: center;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .flip-horizontal {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
@@ -57,6 +61,10 @@ $tablet: "(min-width: 768px) and (max-width: 1023px)";
 
 a {
     color: #1A52A8
+}
+
+.footer-container {
+    margin: 0 10%;
 }
 
 @media #{$desktop} {
