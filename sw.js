@@ -16,16 +16,28 @@ if (workbox) {
         })
     );
     workbox.routing.registerRoute(
+        "/",
+        workbox.strategies.staleWhileRevalidate({
+            cacheName: 'my-welcome-cache',
+        })
+    );
+    workbox.routing.registerRoute(
         "/index.html",
-        workbox.strategies.staleWhileRevalidate()
+        workbox.strategies.staleWhileRevalidate({
+            cacheName: 'my-welcome-cache',
+        })
     );
     workbox.routing.registerRoute(
         /.*\.(?:js)/g,
-        workbox.strategies.staleWhileRevalidate()
+        workbox.strategies.staleWhileRevalidate({
+            cacheName: 'my-js-cache',
+        })
     );
     workbox.routing.registerRoute(
         /.*\.(?:css)/g,
-        workbox.strategies.staleWhileRevalidate()
+        workbox.strategies.staleWhileRevalidate({
+            cacheName: 'my-css-cache',
+        })
     );
 } else {
     console.log(`Boo! Workbox didn't load 😬`);
