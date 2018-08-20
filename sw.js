@@ -39,6 +39,12 @@ if (workbox) {
             cacheName: 'my-css-cache',
         })
     );
+    workbox.routing.registerRoute(
+        "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css",
+        workbox.strategies.staleWhileRevalidate({
+            cacheName: 'my-normalize-cache',
+        })
+    );
 } else {
     console.log(`Boo! Workbox didn't load 😬`);
 }
