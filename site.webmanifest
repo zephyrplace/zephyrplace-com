@@ -1,7 +1,7 @@
 {
     "name": "Zephyr Place",
     "short_name": "ZephyrPlace",
-    "start_url": "/?launcher=true",
+    "start_url": "/index.html?launcher=true",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
