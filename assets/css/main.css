@@ -2343,6 +2343,9 @@ input[type=button].small,
   h3 {
     font-size: 1.25em;
   }
+  h3 span {
+    font-size: 1.5em;
+  }
 
   /* Section/Article */
   header.major p {
