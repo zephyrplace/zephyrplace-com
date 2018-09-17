@@ -853,6 +853,12 @@
 		position: relative;
 		height: 20em;
 
+		a {
+			img {
+				padding: 1.8em;
+			}
+		}
+
 		&:after {
 			clear: both;
 			content:'';
@@ -1435,7 +1441,7 @@
 				}
 
 				.logo {
-					font-size: 1.5em;
+					max-width: 100%;
 				}
 
 				h1 {

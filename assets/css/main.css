@@ -2082,6 +2082,9 @@ input[type=button].small,
   position: relative;
   height: 20em;
 }
+.feature a img {
+  padding: 1.8em;
+}
 .feature:after {
   clear: both;
   content: "";
@@ -2539,7 +2542,7 @@ input[type=button].small,
     height: 20px;
   }
   #header .logo {
-    font-size: 1.5em;
+    max-width: 100%;
   }
   #header h1 {
     font-size: 1.25em;
