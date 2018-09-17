@@ -1970,7 +1970,7 @@ table.default {
 table.default tbody tr {
   border-bottom: solid 1px rgba(224, 224, 224, 0.75);
 }
-table.default tbody tr:nth-child(2n-1) {
+table.default tbody tr:nth-child(2n - 1) {
   background: rgba(224, 224, 224, 0.15);
 }
 table.default td {
@@ -2214,6 +2214,9 @@ input[type=button].small,
   line-height: 1.5em;
   margin: 0.25em 0 0 0;
 }
+#header .logo {
+  max-width: 100%;
+}
 
 /* Footer */
 #footer {
@@ -2342,6 +2345,9 @@ input[type=button].small,
 
   h3 {
     font-size: 1.25em;
+  }
+  h3 span {
+    font-size: 1.5em;
   }
 
   /* Section/Article */
@@ -2628,4 +2634,4 @@ input[type=button],
   }
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=assets/css/main.css.map */
