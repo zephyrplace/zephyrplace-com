@@ -6,10 +6,7 @@ const Header = styled.div`
   flex-wrap: wrap;
   padding: 2.5rem;
   width: 100%;
-  background-image: linear-gradient(
-    var(--color-primary),
-    var(--color-secondary)
-  );
+  background-color: black;
 `;
 
 export { Header };
