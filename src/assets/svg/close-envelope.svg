@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="31.474" viewBox="0 0 46 31.474">
+    <defs>
+        <style>
+            .cls-1{fill:#6a6a6a}
+        </style>
+    </defs>
+    <g id="close-envelope" transform="translate(0 -2)">
+        <g id="Grupo_84" data-name="Grupo 84" transform="translate(0 2)">
+            <path id="Caminho_626" d="M22.278 12.255l-5.691-4.771L.316 20.845a3.412 3.412 0 0 0 2.27.853h39.383a3.386 3.386 0 0 0 2.261-.853L27.969 7.484z" class="cls-1" data-name="Caminho 626" transform="translate(.722 9.776)"/>
+            <path id="Caminho_627" d="M44.235 2.853A3.39 3.39 0 0 0 41.964 2H2.582a3.375 3.375 0 0 0-2.264.859l21.955 18.025z" class="cls-1" data-name="Caminho 627" transform="translate(.727 -2)"/>
+            <path id="Caminho_628" d="M0 2.878v26.148L15.88 16.1z" class="cls-1" data-name="Caminho 628" transform="translate(0 -.115)"/>
+            <path id="Caminho_629" d="M9.167 16.107l15.88 12.926V2.875z" class="cls-1" data-name="Caminho 629" transform="translate(20.953 -.121)"/>
+        </g>
+    </g>
+</svg>

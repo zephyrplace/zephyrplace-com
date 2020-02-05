@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css');
+:root {
+  --color-primary: #222;
+  --color-secondary: #eee;
+}
+
+html {
+  @apply font-body
+}
+
+.title {
+  font-size: 65px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: 0.65px;
+  text-align: left;
+}

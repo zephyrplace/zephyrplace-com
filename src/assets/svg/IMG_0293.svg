@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="388" height="347" viewBox="0 0 388 347">
+    <defs>
+        <style>
+            .cls-1{fill:#4052a9;opacity:.17}.cls-2{filter:url(#IMG_0293)}
+        </style>
+        <filter id="IMG_0293" width="388" height="347" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dx="10" dy="10"/>
+            <feGaussianBlur result="blur" stdDeviation="5"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g class="cls-2">
+        <rect id="IMG_0293-2" width="358" height="317" class="cls-1" data-name="IMG_0293" rx="20" transform="translate(5 5)"/>
+    </g>
+</svg>
