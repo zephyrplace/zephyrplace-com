@@ -10771,27 +10771,67 @@ video {
   z-index: auto;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500&display=swap");
 
-@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css");
 
-:root {
-  --color-primary: #222;
-  --color-secondary: #eee;
-}
+/* :root {
+  --color-primary: #4052a9;
+  --color-secondary: #61daf8;
+} */
 
 html {
-  font-family: Montserrat, sans-serif
+  font-family: Montserrat, sans-serif;
 }
 
-.title {
+.subitle {
   font-size: 65px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.32;
   letter-spacing: 0.65px;
-  text-align: left;
+  text-align: right;
+}
+
+.title {
+  font-size: 30px;
+  font-style: normal;
+  line-height: 1.72;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.wave {
+  position: relative;
+  height: 70px;
+  width: 100%;
+  background: black;
+}
+
+.wave:before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 50vw;
+  height: 80px;
+  background-color: black;
+  right: 5px;
+  top: 20px;
+  /* esse aqui */
+}
+
+.wave:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 50vw;
+  height: 70px;
+  background-color: white;
+  left: 0;
+  top: 27px;
 }
 
 @media (min-width: 640px) {

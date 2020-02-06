@@ -1,7 +1,7 @@
 import React from "react";
-import photo from "../assets/svg/Create.svg";
+import photo from "../assets/svg/Mulher.svg";
 
-export function Create() {
+export function Here() {
   return (
     <div
       className="flex flex-row "
@@ -15,8 +15,10 @@ export function Create() {
         className="flex flex-1 flex-col justify-center p-10 "
       >
         <p className="text-2xl text-right">
-          <b>Crimamos</b> a sua ideia e fazemos com que ela se torne realidade!
-          Buscamos sempre <b>inovar</b> em cada projeto, preservando o estilo
+          Aqui na <b>Zephyr Place</b> fazemos a sua ideia se tornar real! Nossa
+          experiência é voltada para criação de aplicativos mobile, sempre
+          visando o melhor custo benefício, agilidade e perfeição em cada
+          desenvolvimento. Podemos ajudar você a alcançar suas metas!
         </p>
       </div>
       <div

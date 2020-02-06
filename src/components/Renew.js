@@ -26,8 +26,9 @@ export function Renew() {
       </div>
       <div className="flex flex-1 flex-col justify-center p-10 ">
         <p className="text-2xl">
-          Renove seu aplicativo atual com as melhores tecnologias do mercado e
-          mantenha seus negócios no topo! IMPRESSIONE!
+          <b>Renove</b> seu aplicativo atual com as<b> melhores</b> tecnologias
+          do mercado e mantenha seus negócios no <b>topo</b>!<b> IMPRESSIONE</b>
+          !
         </p>
       </div>
     </div>
