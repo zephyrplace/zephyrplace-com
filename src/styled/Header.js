@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 const Header = styled.div`
   display: flex;
@@ -8,6 +8,6 @@ const Header = styled.div`
   width: 100%;
   min-height: 60vh;
   background-color: black;
-`;
+`
 
-export { Header };
+export { Header }

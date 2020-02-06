@@ -10802,34 +10802,33 @@ html {
   text-align: center;
 }
 
-.wave {
+#wave {
   position: relative;
   height: 70px;
   width: 100%;
-  background: black;
+  background: #e0efe3;
 }
 
-.wave:before {
+#wave:before {
   content: "";
   display: block;
   position: absolute;
   border-radius: 100% 50%;
-  width: 50vw;
+  width: 53,125%;
   height: 80px;
-  background-color: black;
-  right: 5px;
-  top: 20px;
-  /* esse aqui */
+  background-color: white;
+  right: -5px;
+  top: 40px;
 }
 
-.wave:after {
+#wave:after {
   content: "";
   display: block;
   position: absolute;
   border-radius: 100% 50%;
-  width: 50vw;
+  width: 50%;
   height: 70px;
-  background-color: white;
+  background-color: #e0efe3;
   left: 0;
   top: 27px;
 }
