@@ -1,39 +1,39 @@
-import React from 'react'
-import photo from '../assets/svg/Create.svg'
+import React from "react";
+import photo from "../assets/svg/Create.svg";
 
-export function Create () {
+export function Create() {
   return (
     <div
-      className='flex flex-row '
+      className="flex flex-row "
       style={{
-        backgroundImage: 'white',
-        height: '200px'
+        backgroundImage: "white",
+        height: "70vh"
       }}
     >
       <div
-        style={{ marginLeft: '50px' }}
-        className='flex flex-1 flex-col justify-center p-10 '
+        style={{ marginLeft: "50px" }}
+        className="flex flex-1 flex-col justify-center p-10 "
       >
-        <p className='text-2xl text-right'>
+        <p className="text-2xl text-right">
           <b>Crimamos</b> a sua ideia e fazemos com que ela se torne realidade!
           Buscamos sempre <b>inovar</b> em cada projeto, preservando o estilo
         </p>
       </div>
       <div
-        style={{ minHeight: '100px', marginTop: '100px', marginLeft: '200px' }}
-        className='flex flex-1 justify-around flex-col '
+        style={{ minHeight: "100px", marginTop: "100px", marginLeft: "200px" }}
+        className="flex flex-1 justify-around flex-col "
       >
         <img
           src={photo}
           style={{
-            width: '400px',
-            height: '368px',
-            marginTop: '-100px'
+            width: "400px",
+            height: "368px",
+            marginTop: "-100px"
           }}
-          className=''
-          alt='renovar'
+          className=""
+          alt="renovar"
         />
       </div>
     </div>
-  )
+  );
 }
