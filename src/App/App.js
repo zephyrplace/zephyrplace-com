@@ -10,6 +10,7 @@ import CardBPP from "../components/Card-BPP";
 import { Button } from "../components/button";
 import { Here } from "../components/Here";
 import { Container, Linha, Section, Image } from "./styles";
+import Footer from "../components/Footer";
 
 import photo from "../assets/svg/Mulher-lampada.svg";
 import section1 from "../assets/svg/Section1.svg";
@@ -147,6 +148,7 @@ function App() {
           <Image src={section6} alt="Mobile" />
         </div>
       </Section>
+      <Footer />
     </div>
   );
 }
