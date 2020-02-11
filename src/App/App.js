@@ -87,7 +87,7 @@ function App() {
           </div>
         </div>
         <div className="flex flex-row">
-          <div className="flex flex-col">
+          <div className="flex flex-col" style={{ backgroundColor: "#f8f9fa" }}>
             <p style={{ fontSize: 30, fontWeight: 600 }} className=" mx-10 p-3">
               2. Desenvolva um MVP
             </p>
@@ -110,7 +110,7 @@ function App() {
             </p>
           </div>
         </div>
-        <div className="flex flex-row">
+        <div className="flex flex-row" style={{ backgroundColor: "#f8f9fa" }}>
           <div className="flex flex-col">
             <p style={{ fontSize: 30, fontWeight: 600 }} className=" mx-10 p-3">
               4. Avalie seus resultados
@@ -135,7 +135,7 @@ function App() {
             </p>
           </div>
         </div>
-        <div className="flex flex-row">
+        <div className="flex flex-row" style={{ backgroundColor: "#f8f9fa" }}>
           <div className="flex flex-col">
             <p style={{ fontSize: 30, fontWeight: 600 }} className=" mx-10 p-3">
               6. Evolua sua solução
