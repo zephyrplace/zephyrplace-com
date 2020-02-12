@@ -1,0 +1,19 @@
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import HomeScreen from "./screens/Home";
+import ProjectScreen from "./screens/Projetos";
+
+export default function App() {
+  return (
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <HomeScreen />
+        </Route>
+        <Route exact path="/Projects">
+          <ProjectScreen />
+        </Route>
+      </Switch>
+    </Router>
+  );
+}

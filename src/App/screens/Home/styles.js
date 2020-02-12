@@ -1,11 +1,12 @@
 import styled from "styled-components";
-import separador from "../assets/svg/Linha.svg";
+import separador from "../../../assets/svg/Linha.svg";
 
 export const Container = styled.div`
-  height: 350vh;
-  margin-bottom: 100px;
-  background: linear-gradient(#dadada, #f8f9fa);
+  height: 340vh;
+  background: #f8f9fa;
 `;
+
+export const Tools = styled.div``;
 
 export const Linha = styled.div`
   background-image: url(${separador});
@@ -14,9 +15,10 @@ export const Linha = styled.div`
 `;
 
 export const Section = styled.div`
-  width: 100%;
+  width: 90vw;
   align-items: center;
   justify-content: center;
+  background: #f8f9fa;
 `;
 export const Image = styled.img`
   width: 25vw;

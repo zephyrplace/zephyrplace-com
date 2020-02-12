@@ -43,6 +43,9 @@
     "standard": "^14.3.1"
   },
   "standard": {
-    "globals": [ "fetch", "myVar2" ]
+    "globals": [
+      "fetch",
+      "myVar2"
+    ]
   }
 }

@@ -2,6 +2,10 @@ import React from "react";
 import { Container, Img, Line, ContainerTxt, Text, Text2 } from "./styles";
 import Fogete from "../../assets/svg/rocket.svg";
 import Linkedin from "../../assets/svg/LinkedIn.svg";
+import Facebook from "../../assets/svg/facebook.svg";
+import Git from "../../assets/svg/github.svg";
+import Insta from "../../assets/svg/instagram.svg";
+import Zap from "../../assets/svg/whatsapp.svg";
 
 export default function Footer() {
   return (
@@ -15,13 +19,14 @@ export default function Footer() {
             display: "flex",
             flexDirection: "row",
             width: "14vw",
+            height: "4vh",
             justifyContent: "space-between"
           }}
         >
-          <img src={Linkedin} alt="Logo LinkedIn" />
-          <img src={Linkedin} alt="Logo LinkedIn" />
-          <img src={Linkedin} alt="Logo LinkedIn" />
-          <img src={Linkedin} alt="Logo LinkedIn" />
+          <img src={Zap} alt="Logo LinkedIn" />
+          <img src={Insta} alt="Logo LinkedIn" />
+          <img src={Facebook} alt="Logo LinkedIn" />
+          <img src={Git} alt="Logo LinkedIn" />
           <img src={Linkedin} alt="Logo LinkedIn" />
         </div>
       </Img>

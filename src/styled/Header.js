@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const Header = styled.div`
   display: flex;
@@ -7,7 +7,7 @@ const Header = styled.div`
   /* padding: 2.5rem; */
   width: 100%;
   min-height: 60vh;
-  background-color: black;
-`
+  background-color: ${props => props.backgroundColor || "black"};
+`;
 
-export { Header }
+export { Header };
