@@ -15,8 +15,7 @@ import BPP from "../../../assets/image/BPP/BPP.png";
 import CAP from "../../../assets/image/CAP/CAP.jpg";
 import TVM from "../../../assets/image/TVM/TVM.jpg";
 import arrow from "../../../assets/svg/arrowdown.svg";
-
-/*Fazer de novo a primeira parte da página*/
+import JWF from "../../../assets/image/JWF/JWF.jpg";
 
 function Projetos() {
   return (
@@ -120,6 +119,21 @@ function Projetos() {
             </p>
           </div>
           <Image height="25vh" width="25vw" src={Apoyo} alt="Projeto" />
+        </ContainerProj>
+        <ContainerProj>
+          <Image height="25vh" width="25vw" src={JWF} alt="Projeto" />
+          <div className="flex flex-col" style={{ marginLeft: "10vw" }}>
+            <p className="text-2xl text-center">
+              Aplicativo Web - <b>JWF</b>
+            </p>
+            <br />
+            <p className="text-2xl text-center">
+              Aqui na Zephyr Place fazemos a sua ideia se tornar real! Nossa
+              experiência é voltada para criação de aplicativos mobile, sempre
+              visando o melhor custo benefício, agilidade e perfeição em cada
+              desenvolvimento. Podemos ajudar você a alcançar suas metas!
+            </p>
+          </div>
         </ContainerProj>
       </Container>
       <Footer />

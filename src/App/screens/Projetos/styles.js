@@ -2,7 +2,7 @@ import styled from "styled-components";
 import Back from "../../../assets/svg/CaraCaminho.svg";
 
 export const Container = styled.div`
-  height: 420vh;
+  min-height: 420vh;
   background: #f8f9fa;
   align-items: center;
 `;

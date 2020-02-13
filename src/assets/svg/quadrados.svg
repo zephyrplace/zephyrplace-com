@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="979.353" viewBox="0 0 1920 979.353">
+    <defs>
+        <style>
+            .cls-1{fill:#f8f9fa}.cls-2,.cls-4{fill:none}.cls-2{stroke:#000;stroke-width:10px}.cls-3{stroke:none}
+        </style>
+    </defs>
+    <g id="Grupo_1035" data-name="Grupo 1035" transform="translate(0 -1451)">
+        <g id="Grupo_1034" data-name="Grupo 1034" transform="translate(0 -1475)">
+            <path id="Retângulo_534" d="M0 0h1920v979H0z" class="cls-1" data-name="Retângulo 534" transform="translate(0 2926)"/>
+            <g id="Retângulo_522" class="cls-2" data-name="Retângulo 522">
+                <path d="M0 0h617.22v234.353H0z" class="cls-3" transform="translate(647.209 3671)"/>
+                <path d="M5 5h607.22v224.353H5z" class="cls-4" transform="translate(647.209 3671)"/>
+            </g>
+            <g id="Retângulo_521" class="cls-2" data-name="Retângulo 521">
+                <path d="M0 0h242.22v234.353H0z" class="cls-3" transform="translate(1602.209 3160)"/>
+                <path d="M5 5h232.22v224.353H5z" class="cls-4" transform="translate(1602.209 3160)"/>
+            </g>
+            <g id="Retângulo_520" class="cls-2" data-name="Retângulo 520">
+                <path d="M0 0h242.22v234.353H0z" class="cls-3" transform="translate(71.209 2926)"/>
+                <path d="M5 5h232.22v224.353H5z" class="cls-4" transform="translate(71.209 2926)"/>
+            </g>
+        </g>
+    </g>
+</svg>
