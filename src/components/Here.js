@@ -7,8 +7,9 @@ export function Here() {
       className="flex flex-row "
       style={{
         backgroundImage: "white",
-        height: "200px",
-        justifyContent: "space-around"
+        height: "40vh",
+        justifyContent: "space-around",
+        marginTop: "10vh"
       }}
     >
       <div

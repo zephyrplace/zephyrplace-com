@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920.533" height="1578" viewBox="0 0 1920.533 1578">
+    <defs>
+        <style>
+            .cls-1{fill:#f8f9fa}.cls-2{fill:none;stroke:#39393a;stroke-width:2px;stroke-dasharray:21 21}.cls-3{fill:#efc75e}.cls-4{fill:#deb957}.cls-5{fill:url(#linear-gradient)}.cls-6{fill:#d0d0d0}
+        </style>
+        <linearGradient id="linear-gradient" x1=".5" x2=".5" y1="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#00f2fe"/>
+            <stop offset=".021" stop-color="#03effe"/>
+            <stop offset=".293" stop-color="#24d2fe"/>
+            <stop offset=".554" stop-color="#3cbdfe"/>
+            <stop offset=".796" stop-color="#4ab0fe"/>
+            <stop offset="1" stop-color="#4facfe"/>
+        </linearGradient>
+    </defs>
+    <g id="Grupo_1025" data-name="Grupo 1025" transform="translate(0 -3009)">
+        <g id="Grupo_1021" data-name="Grupo 1021">
+            <g id="Grupo_1020" data-name="Grupo 1020">
+                <g id="Grupo_1000" data-name="Grupo 1000" transform="translate(10 -200)">
+                    <path id="Retângulo_526" d="M0 0h1920v1578H0z" class="cls-1" data-name="Retângulo 526" transform="translate(-10 3209)"/>
+                    <g id="Grupo_999" data-name="Grupo 999" transform="translate(-10 2023)">
+                        <path id="Caminho_2995" d="M20581-7747.246s-330.012 207.947-560.135 271.693-468.854 71.077-735.633 191.239-213.551 306.461-331.482 289.409-191.238-359.37-63.746-327.656 152.354 256.9 506.146 441.763 684.158 5.737 747.746 200.164c38.533 117.822-131.863 278.483-272.283 386.921" class="cls-2" data-name="Caminho 2995" transform="translate(-18661 8939)"/>
+                        <g id="Grupo_975" data-name="Grupo 975" transform="rotate(106 -380.675 1787.222)">
+                            <path id="Caminho_436" d="M23.711 3.653A12.308 12.308 0 0 1 24 20.626C19.557 25.2 6.321 31.021 1.713 26.276S2.77 7.914 7.217 3.341a11.483 11.483 0 0 1 16.494.312z" class="cls-3" data-name="Caminho 436" transform="rotate(79 8.939 29.715)"/>
+                            <path id="Caminho_437" d="M0 1.167l.009.5c.15 8.653 7.144 15.855 15.553 16.014l.323.006a12.4 12.4 0 0 0-2.425-14.02A11.528 11.528 0 0 0 0 1.167z" class="cls-4" data-name="Caminho 437" transform="rotate(79 3.864 35.892)"/>
+                            <path id="Caminho_438" d="M55.812 12.821c14.071 14.489 17.17 34.759 4.3 47.989L54 67.1c-12.865 13.23-4.369-18.963-18.44-33.452s-45.441-5.685-32.5-19l6.12-6.286c12.865-13.23 32.561-10.029 46.632 4.46z" data-name="Caminho 438" transform="rotate(79 34.466 41.81)"/>
+                            <path id="Caminho_439" d="M82.02 1.963c4.28 4.406 2.894 31.827-22.438 57.963C43.063 76.83 32.576 82.7 32.576 82.7c-11.1 7.608-16.612 2.181-23.854-5.276S-3.871 64.3 3.61 52.877c0 0 5.793-10.869 22.231-27.858C51.174-1.033 77.739-2.526 82.02 1.963z" class="cls-5" data-name="Caminho 439" transform="rotate(79 46.547 70.86)"/>
+                            <path id="Caminho_440" d="M36.958 32.986c-11.584 7.848-17.339 2.25-24.827-5.461C4.561 19.73-.956 13.886 6.84 1.974L8.019 0A74.882 74.882 0 0 0 3.61 6.82c-7.481 11.42-2.129 17.093 5.112 24.55s12.749 12.8 23.854 5.276c0 0 4.962-2.817 13.486-10.058a83.408 83.408 0 0 1-9.104 6.398z" data-name="Caminho 440" transform="rotate(79 18.61 47.831)"/>
+                            <path id="Caminho_441" d="M17.156 3.194a10.614 10.614 0 0 1 .254 14.727A9.906 9.906 0 0 1 3.1 17.65a10.615 10.615 0 0 1-.254-14.727 9.907 9.907 0 0 1 14.31.271z" class="cls-6" data-name="Caminho 441" transform="rotate(79 11.569 81.003)"/>
+                            <path id="Caminho_442" d="M29.738.6c2.057 2.118-1.7 9.45-11.384 19.413S2.73 32.61.671 30.408c-2.057-2.118.424-8.226 10.112-18.19C20.552 2.256 27.6-1.6 29.738.6z" data-name="Caminho 442" transform="rotate(79 12.37 45.497)"/>
+                            <path id="Caminho_443" d="M10.051 2.523a7.915 7.915 0 0 1 5.513 2.457 8.372 8.372 0 0 1 2.384 5.674 7.79 7.79 0 0 1-2.19 5.588 7.347 7.347 0 0 1-5.431 2.25 7.915 7.915 0 0 1-5.513-2.457 8.372 8.372 0 0 1-2.384-5.674 7.79 7.79 0 0 1 2.19-5.588 7.346 7.346 0 0 1 5.431-2.25M10.008 0a9.4 9.4 0 0 0-7.134 2.975 10.722 10.722 0 0 0 .257 14.876 10.464 10.464 0 0 0 7.241 3.249 9.4 9.4 0 0 0 7.133-2.974 10.723 10.723 0 0 0-.257-14.876A10.121 10.121 0 0 0 10.008 0z" data-name="Caminho 443" transform="rotate(79 11.774 81.043)"/>
+                            <path id="Caminho_444" d="M0 3.554A30.947 30.947 0 0 0 8.692 20.1a31.321 31.321 0 0 0 13.968 8.5c5.1-13.544 4.515-24.035 2.045-26.66C22.317-.6 12.607-1.2 0 3.554z" data-name="Caminho 444" transform="rotate(79 17.876 105.614)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

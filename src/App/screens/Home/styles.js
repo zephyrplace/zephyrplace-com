@@ -2,7 +2,7 @@ import styled from "styled-components";
 import separador from "../../../assets/svg/Linha.svg";
 
 export const Container = styled.div`
-  height: 340vh;
+  height: 390vh;
   background: #f8f9fa;
 `;
 

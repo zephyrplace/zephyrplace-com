@@ -14,6 +14,7 @@ import section3 from "../../../assets/svg/Section3.svg";
 import section4 from "../../../assets/svg/Section4.svg";
 import section5 from "../../../assets/svg/Section5.svg";
 import section6 from "../../../assets/svg/Section6.svg";
+import fogete from "../../../assets/svg/fogetefrase.svg";
 
 function Home() {
   return (
@@ -40,6 +41,9 @@ function Home() {
         <Waves />
       </Header>
       <Container className="flex flex-col items-center mx-auto justify-around">
+        <div>
+          <img src={fogete} alt="Frase" />
+        </div>
         <Here />
         <Section className="flex flex-col p-2">
           <p style={{ fontSize: 35, fontWeight: 600 }}>NOSSAS ETAPAS BÁSICAS</p>
