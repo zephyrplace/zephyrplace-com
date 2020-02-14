@@ -3,7 +3,7 @@ import { Header } from "../../../styled/Header";
 import { Menu } from "../../../components/Menu";
 import { Button } from "../../../components/button";
 import { Here } from "../../../components/Here";
-import { Container, Section, Image, Tools } from "./styles";
+import { Container, Section, Image, Tools, ContainerDown } from "./styles";
 import Footer from "../../../components/Footer";
 import { Waves } from "../../../components/Waves";
 
@@ -15,6 +15,7 @@ import section4 from "../../../assets/svg/Section4.svg";
 import section5 from "../../../assets/svg/Section5.svg";
 import section6 from "../../../assets/svg/Section6.svg";
 import fogete from "../../../assets/svg/fogetefrase.svg";
+import Grupo from "../../../assets/image/Grupo/Grupo.jpg";
 
 function Home() {
   return (
@@ -203,6 +204,7 @@ function Home() {
           </p>
         </Tools>
       </Container>
+      <ContainerDown className="relative"></ContainerDown>
       <Footer />
     </div>
   );

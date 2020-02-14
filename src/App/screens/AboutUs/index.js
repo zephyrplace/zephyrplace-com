@@ -15,8 +15,6 @@ import Equipe4 from "../../../assets/image/Equipe4/Equipe4.jpg";
 import Equipe5 from "../../../assets/image/Equipe5/Equipe5.jpg";
 import Equipe6 from "../../../assets/image/Equipe6/Equipe6.jpg";
 
-/* Alterar as fotos da equipe */
-
 function AboutUs() {
   return (
     <div>
@@ -34,7 +32,7 @@ function AboutUs() {
         </Container>
         <Container2 className="relative">
           <div
-            style={{ width: "50vw" }}
+            style={{ width: "60vw" }}
             className="absolute flex flex-col items-center "
           >
             <div className="flex flex-row ">
@@ -44,15 +42,17 @@ function AboutUs() {
             </div>
             <div className="flex flex-row">
               <p style={{ fontSize: 20 }} className=" mx-8 p-3 text-center">
-                Aqui na Zephyr Place fazemos a sua ideia se tornar real! Nossa
-                experiência é voltada para criação de aplicativos mobile, sempre
-                visando o melhor custo benefício, agilidade e perfeição em cada
-                desenvolvimento. Podemos ajudar você a alcançar suas metas!
+                A Zephyr Place surgiu há alguns anos atrás quando um time de
+                <b> pessoas revolucionárias </b>decidiu criar algo que ajudasse
+                tanto as grandes empresas quanto os menores empreendedores a
+                crescer e expandir os seus horizontes através das melhores
+                tecnologias do mercado que serviriam de base para tudo o que
+                ainda estava por vir.
               </p>
             </div>
           </div>
           <div
-            style={{ width: "50vw" }}
+            style={{ width: "50vw", marginBottom: "20vh" }}
             className="absolute bottom-0 flex flex-col items-center "
           >
             <div className="flex flex-row ">
@@ -62,10 +62,9 @@ function AboutUs() {
             </div>
             <div className="flex flex-row">
               <p style={{ fontSize: 20 }} className=" mx-8 p-3 text-center">
-                Aqui na Zephyr Place fazemos a sua ideia se tornar real! Nossa
-                experiência é voltada para criação de aplicativos mobile, sempre
-                visando o melhor custo benefício, agilidade e perfeição em cada
-                desenvolvimento. Podemos ajudar você a alcançar suas metas!
+                <b>Renovar, Inovar e Impressionar! </b> Trabalhamos para que os
+                nossos clientes tenham um grande upgrade nos seus projetos
+                atuais com as melhores tecnologias disponíveis no mercado
               </p>
             </div>
           </div>
@@ -80,10 +79,10 @@ function AboutUs() {
             </div>
             <div className="flex flex-row">
               <p style={{ fontSize: 20 }} className=" mx-8 p-3 text-center">
-                Aqui na Zephyr Place fazemos a sua ideia se tornar real! Nossa
-                experiência é voltada para criação de aplicativos mobile, sempre
-                visando o melhor custo benefício, agilidade e perfeição em cada
-                desenvolvimento. Podemos ajudar você a alcançar suas metas!
+                Queremos ampliar os nossos negócios e ajudar cada vez mais
+                pessoas através da tecnologia, que tem se tornado um dos motores
+                da nossa sociedade atual, para que todos tenham a oportunidade
+                de <b> crescer e evoluir!</b>
               </p>
             </div>
           </div>

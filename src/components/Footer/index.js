@@ -33,8 +33,8 @@ export default function Footer() {
       <Line />
       <ContainerTxt>
         <Text>Blog</Text>
-        <Text>Projetos</Text>
-        <Text>Sobre Nós</Text>
+        <Text href={"/Projects"}>Projetos</Text>
+        <Text href={"/About"}>Sobre Nós</Text>
       </ContainerTxt>
       <ContainerTxt>
         <div style={{ display: "flex", flexDirection: "column" }}>

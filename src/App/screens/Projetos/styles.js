@@ -7,6 +7,11 @@ export const Container = styled.div`
   align-items: center;
 `;
 
+export const ContainerBig = styled.div`
+  min-height: 420vh;
+  background: #f8f9fa;
+`;
+
 export const ContainerProj = styled.div`
   display: flex;
   padding: 4vh 4vw;
@@ -37,6 +42,7 @@ export const Image2 = styled.div`
   background-repeat: no-repeat;
   justify-content: center;
   align-items: center;
+  margin-top: 10vh;
 `;
 
 export const ButtonScrool = styled.div`

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="687.16" height="577.99" viewBox="0 0 687.16 577.99">
+    <defs>
+        <radialGradient id="prefix__radial-gradient" cx=".5" cy=".5" r=".5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#360100" stop-opacity=".851"/>
+            <stop offset=".77" stop-color="#360100"/>
+        </radialGradient>
+        <style>
+            .prefix__cls-9{fill:#66342e}.prefix__cls-10{fill:#f9bb4b}.prefix__cls-12{fill:#4da6ea}.prefix__cls-13{fill:#e97424}.prefix__cls-14{fill:#f4f4e6}
+        </style>
+    </defs>
+    <g id="prefix__Grupo_1047" data-name="Grupo 1047" transform="translate(-1065.84 -3308.237)">
+        <g id="prefix__Grupo_1046" data-name="Grupo 1046">
+            <g id="prefix__Grupo_1045" data-name="Grupo 1045" transform="translate(-44 -761)">
+                <g id="prefix__Grupo_922" data-name="Grupo 922" transform="translate(942 -7748)">
+                    <path id="prefix__Caminho_2851" d="M337.5 0C504.2 88.4 675 122 675 272.5S453.2 505.6 337.5 545 69 387 0 272.5 170.8-88.4 337.5 0z" data-name="Caminho 2851" transform="translate(180 11836)" style="fill:#fff"/>
+                    <g id="prefix__Grupo_768" data-name="Grupo 768" transform="translate(370 11864)">
+                        <rect id="prefix__Retângulo_286" width="103.93" height="100.969" data-name="Retângulo 286" rx="17" style="fill:#f37021"/>
+                        <rect id="prefix__Retângulo_285" width="95.421" height="92.736" data-name="Retângulo 285" rx="16" transform="translate(4.255 4.053)"/>
+                        <path id="prefix__Caminho_2480" d="M69.029 83.626l-3.44 12.132c-.069.336-.213.4-.643.4h-6.38c-.434 0-.5-.133-.434-.6l12.33-40.219a11.773 11.773 0 00.434-3.369c0-.267.143-.4.36-.4h9.1c.287 0 .434.065.5.4l13.832 43.659c.074.332 0 .534-.356.534h-7.17c-.36 0-.573-.077-.647-.344l-3.584-12.193zm12.113-6.572c-1.22-4.473-4.087-14.272-5.16-19.007h-.074C75 62.8 72.686 70.782 70.892 77.054zm19.544-22.477c0-2.6 1.937-4.137 4.443-4.137 2.654 0 4.443 1.67 4.443 4.137 0 2.669-1.863 4.137-4.512 4.137-2.584 0-4.378-1.468-4.378-4.137zm.486 9.192c0-.332.143-.465.5-.465h6.81c.356 0 .5.133.5.465v31.925c0 .336-.069.469-.5.469h-6.745c-.434 0-.573-.2-.573-.534z" data-name="Caminho 2480" transform="translate(-35.041 -24.625)" style="fill-rule:evenodd;fill:#f37021"/>
+                    </g>
+                    <text id="prefix__O_Adobe_Illustrator_é_um_programa_utilizado_por_designers_gráficos_com_foco_em_ilustrações__Ele_permite_uma_interação_maior_entre_usuários_e_desenvolvedores_" data-name="O Adobe Illustrator é um programa utilizado por designers gráficos com foco em ilustrações. Ele permite uma interação maior entre usuários e desenvolvedores." transform="translate(237 11996)" style="font-size:28px;font-family:Montserrat-Light,Montserrat;font-weight:300;letter-spacing:.01em">
+                        <tspan x="21.298" y="27">O</tspan><tspan y="27" style="font-family:Montserrat-SemiBold,Montserrat;font-weight:600"> Adobe Illustrator </tspan><tspan y="27">é um programa </tspan><tspan x="19.604" y="87">utilizado por designers gráficos com </tspan><tspan x="14.494" y="147">foco em ilustrações. Ele permite uma </tspan><tspan x="48.038" y="207">interação maior entre usuários e </tspan><tspan x="155.404" y="267">desenvolvedores.</tspan>
+                    </text>
+                </g>
+                <g id="prefix__flat" transform="rotate(-32 8786.507 -513.998)">
+                    <path id="prefix__Caminho_2856" d="M3 24.535h24.856V9H3z" data-name="Caminho 2856" transform="translate(-3 56.246)" style="fill:#f98c96"/>
+                    <path id="prefix__Caminho_2857" d="M15.321 12H6v6.214h3.107v-3.107h6.214z" data-name="Caminho 2857" transform="translate(-1.34 57.907)" style="fill:#db527d"/>
+                    <path id="prefix__Caminho_2858" d="M18 30.856h3.107V6H18z" class="prefix__cls-9" data-name="Caminho 2858" transform="translate(5.302 54.586)"/>
+                    <path id="prefix__Caminho_2859" d="M19.554 26A1.553 1.553 0 0018 27.553v38.838a1.554 1.554 0 003.107 0V27.553A1.553 1.553 0 0019.554 26z" class="prefix__cls-9" data-name="Caminho 2859" transform="translate(5.302 -13.572)"/>
+                    <path id="prefix__Caminho_2860" d="M42 47.214l7.768 6.214V41H42z" class="prefix__cls-10" data-name="Caminho 2860" transform="translate(18.586 -22.358)"/>
+                    <path id="prefix__Caminho_2861" d="M40.768 47.214L33 53.428V41h7.768z" class="prefix__cls-10" data-name="Caminho 2861" transform="translate(13.605 -22.358)"/>
+                    <path id="prefix__Caminho_2862" d="M33 57.177V29.214L40.768 23h6.214l7.768 6.214v27.963z" data-name="Caminho 2862" transform="translate(13.605 1.856)" style="fill:#4f83d1"/>
+                    <path id="prefix__Caminho_2863" d="M33.428 23L21 26.107v7.767h12.428z" class="prefix__cls-12" data-name="Caminho 2863" transform="translate(6.963 25.158)"/>
+                    <path id="prefix__Caminho_2864" d="M14 24.884a3.884 3.884 0 003.884 3.884h.777a3.107 3.107 0 006.214 0V21h-6.991A3.884 3.884 0 0014 24.884z" class="prefix__cls-13" data-name="Caminho 2864" transform="translate(3.088 30.265)"/>
+                    <path id="prefix__Caminho_2865" d="M60.991 21.874a3.884 3.884 0 01-3.884-3.884v-.777a3.107 3.107 0 110-6.214h7.768v6.991a3.884 3.884 0 01-3.884 3.884z" class="prefix__cls-13" data-name="Caminho 2865" transform="translate(25.228 55.8)"/>
+                    <path id="prefix__Caminho_2866" d="M58.768 36.642v-7.768H51V18l15.535 6.214v12.428z" class="prefix__cls-12" data-name="Caminho 2866" transform="translate(23.568 30.158)"/>
+                    <path id="prefix__Caminho_2867" d="M47 33.874h6.214V23H47z" class="prefix__cls-10" data-name="Caminho 2867" transform="translate(21.354 25.158)"/>
+                    <path id="prefix__Caminho_2868" d="M0 10.874h6.214V0H0z" class="prefix__cls-10" data-name="Caminho 2868" transform="rotate(180 23.302 29.517)"/>
+                    <g id="prefix__Grupo_924" data-name="Grupo 924" transform="translate(51.265 45.051)">
+                        <path id="prefix__Caminho_2869" d="M42 29.107h3.107V26H42z" class="prefix__cls-14" data-name="Caminho 2869" transform="translate(-32.679 -19.786)"/>
+                        <path id="prefix__Caminho_2870" d="M36 29.107h6.214V26H36z" class="prefix__cls-14" data-name="Caminho 2870" transform="translate(-36 -19.786)"/>
+                        <path id="prefix__Caminho_2871" d="M36 33.107h3.107V30H36z" class="prefix__cls-14" data-name="Caminho 2871" transform="translate(-36 -30)"/>
+                        <path id="prefix__Caminho_2872" d="M40 33.107h6.214V30H40z" class="prefix__cls-14" data-name="Caminho 2872" transform="translate(-33.786 -30)"/>
+                    </g>
+                    <path id="prefix__Caminho_2873" d="M61.071 18.525a15.535 15.535 0 11-23.3-13.439V2.99H53.3v2.1a15.516 15.516 0 017.768 13.439z" class="prefix__cls-12" data-name="Caminho 2873" transform="translate(11.944 56.043)"/>
+                    <path id="prefix__Caminho_2874" d="M33 50.535h21.749v-9.321L46.981 35h-6.213L33 41.214z" class="prefix__cls-12" data-name="Caminho 2874" transform="translate(13.605 -10.144)"/>
+                    <path id="prefix__Caminho_2875" d="M38 41.214h6.214V35H38z" class="prefix__cls-13" data-name="Caminho 2875" transform="translate(16.372 -.823)"/>
+                    <path id="prefix__Caminho_2876" d="M33 41.214h7.768V35H33z" class="prefix__cls-10" data-name="Caminho 2876" transform="translate(13.605 -.823)"/>
+                    <path id="prefix__Caminho_2877" d="M42 41.214h7.768V35H42z" class="prefix__cls-10" data-name="Caminho 2877" transform="translate(18.586 -.823)"/>
+                    <path id="prefix__Caminho_2878" d="M0 6.214h13.981V0H3.107A3.107 3.107 0 000 3.107z" class="prefix__cls-13" data-name="Caminho 2878" transform="rotate(180 37.284 3.107)"/>
+                    <path id="prefix__Caminho_2879" d="M0 12.428h10.874V0H0z" class="prefix__cls-12" data-name="Caminho 2879" transform="rotate(180 35.73 9.321)"/>
+                    <path id="prefix__Caminho_2880" d="M45 55.107h4.66V52H45z" class="prefix__cls-14" data-name="Caminho 2880" transform="translate(20.247 -41.126)"/>
+                    <path id="prefix__Caminho_2881" d="M32.107 63.214h10.874V57H29v3.107a3.107 3.107 0 003.107 3.107z" class="prefix__cls-13" data-name="Caminho 2881" transform="translate(11.391 -57)"/>
+                    <path id="prefix__Caminho_2882" d="M31 61.428h10.875V49H31z" class="prefix__cls-12" data-name="Caminho 2882" transform="translate(12.498 -42.786)"/>
+                    <path id="prefix__Caminho_2883" d="M32 55.107h4.66V52H32z" class="prefix__cls-14" data-name="Caminho 2883" transform="translate(13.051 -41.126)"/>
+                    <path id="prefix__Caminho_2884" d="M52.642 16.768C52.642 12.48 48.463 9 43.321 9a10.273 10.273 0 00-6.478 2.19 7.767 7.767 0 00-2.02 2.392A6.658 6.658 0 0034 16.768c0 4.288 4.179 7.767 9.321 7.767a10.273 10.273 0 006.478-2.19 7.768 7.768 0 002.02-2.392 6.658 6.658 0 00.823-3.185z" data-name="Caminho 2884" transform="translate(14.158 56.246)" style="fill:#fcf05a"/>
+                    <path id="prefix__Caminho_2885" d="M42.577 18.318L36.55 12.29a7.768 7.768 0 00-2.02 2.392l5.841 5.841z" class="prefix__cls-10" data-name="Caminho 2885" transform="translate(14.452 55.147)"/>
+                    <path id="prefix__Caminho_2886" d="M48.337 16.251L42.5 10.41l-2.21 2.206 6.028 6.028a7.768 7.768 0 002.02-2.392z" class="prefix__cls-10" data-name="Caminho 2886" transform="translate(17.64 59.947)"/>
+                    <circle id="prefix__Elipse_258" cx="3" cy="3" r="3" class="prefix__cls-13" data-name="Elipse 258" transform="translate(22 84)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
