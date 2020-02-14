@@ -9,13 +9,17 @@ export const Container = styled.div`
 
 export const ContainerProj = styled.div`
   display: flex;
-  padding: 5vh 5vw;
+  padding: 4vh 4vw;
   flex-direction: row;
   height: 70vh;
   background: #f8f9fa;
   margin-top: 10vh;
   align-items: center;
   justify-content: center;
+  background-image: ${props => `url(${props.background})` || "none"};
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: ${props => props.position || "left"};
 `;
 
 export const Image = styled.img`

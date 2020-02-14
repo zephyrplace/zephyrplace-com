@@ -16,6 +16,10 @@ import CAP from "../../../assets/image/CAP/CAP.jpg";
 import TVM from "../../../assets/image/TVM/TVM.jpg";
 import arrow from "../../../assets/svg/arrowdown.svg";
 import JWF from "../../../assets/image/JWF/JWF.jpg";
+import Fogete from "../../../assets/svg/fogetinhobg.svg";
+import Atomo from "../../../assets/svg/atomobg.svg";
+import Telescopio from "../../../assets/svg/telescopiobg.svg";
+import { Redirect } from "react-router-dom";
 
 function Projetos() {
   return (
@@ -72,9 +76,8 @@ function Projetos() {
             </p>
           </div>
         </ContainerProj>
-
-        <ContainerProj>
-          <div className="flex flex-col" style={{ marginRight: "8vw" }}>
+        <ContainerProj background={Fogete}>
+          <div className="flex flex-col " style={{ marginRight: "8vw" }}>
             <p className="text-2xl text-center">
               Aplicativo Mobile - <b>CAP</b>
             </p>
@@ -89,7 +92,18 @@ function Projetos() {
           </div>
           <Image src={CAP} alt="Projeto" />
         </ContainerProj>
-        <ContainerProj>
+        {/* <div className=" relative">
+          <div
+            style={{
+              width: "20%",
+              height: "33%",
+              backgroundColor: "red"
+            }}
+            className="  abslute bottom-0 right-0 z-1"
+          >
+            <img src={Atomo} alt="Atomo" />
+          </div> */}
+        <ContainerProj background={Atomo} position="right">
           <Image src={TVM} alt="Projeto" />
           <div className="flex flex-col" style={{ marginLeft: "8vw" }}>
             <p className="text-2xl text-center">
@@ -105,21 +119,23 @@ function Projetos() {
             </p>
           </div>
         </ContainerProj>
-        <ContainerProj>
-          <div className="flex flex-col" style={{ marginRight: "10vw" }}>
-            <p className="text-2xl text-center">
-              Aplicativo Web - <b>Apoyo</b>
-            </p>
-            <br />
-            <p className="text-2xl text-center">
-              Aqui na Zephyr Place fazemos a sua ideia se tornar real! Nossa
-              experiência é voltada para criação de aplicativos mobile, sempre
-              visando o melhor custo benefício, agilidade e perfeição em cada
-              desenvolvimento. Podemos ajudar você a alcançar suas metas!
-            </p>
-          </div>
-          <Image height="25vh" width="25vw" src={Apoyo} alt="Projeto" />
-        </ContainerProj>
+        <div>
+          <ContainerProj background={Telescopio}>
+            <div className="flex flex-col" style={{ marginRight: "10vw" }}>
+              <p className="text-2xl text-center">
+                Aplicativo Web - <b>Apoyo</b>
+              </p>
+              <br />
+              <p className="text-2xl text-center">
+                Aqui na Zephyr Place fazemos a sua ideia se tornar real! Nossa
+                experiência é voltada para criação de aplicativos mobile, sempre
+                visando o melhor custo benefício, agilidade e perfeição em cada
+                desenvolvimento. Podemos ajudar você a alcançar suas metas!
+              </p>
+            </div>
+            <Image height="25vh" width="25vw" src={Apoyo} alt="Projeto" />
+          </ContainerProj>
+        </div>
         <ContainerProj>
           <Image height="25vh" width="25vw" src={JWF} alt="Projeto" />
           <div className="flex flex-col" style={{ marginLeft: "10vw" }}>

@@ -98,8 +98,8 @@ function AboutUs() {
             }}
             className="flex flex-row"
           >
-            <Image width="25vw" height="45vh" src={Equipe1} />
-            <Image width="25vw" height="45vh" src={Equipe2} />
+            <Image width="25vw" height="42vh" src={Equipe1} />
+            <Image width="25vw" height="42vh" src={Equipe2} />
             <Image width="25vw" height="42vh" src={Equipe3} />
           </div>
           <div
