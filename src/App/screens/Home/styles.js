@@ -36,4 +36,5 @@ export const ContainerDown = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  margin-bottom: 20vh;
 `;

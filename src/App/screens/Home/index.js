@@ -15,11 +15,10 @@ import section4 from "../../../assets/svg/Section4.svg";
 import section5 from "../../../assets/svg/Section5.svg";
 import section6 from "../../../assets/svg/Section6.svg";
 import fogete from "../../../assets/svg/fogetefrase.svg";
-import Grupo from "../../../assets/image/Grupo/Grupo.jpg";
 
 function Home() {
   return (
-    <div>
+    <div style={{ backgroundColor: "#f8f9fa" }}>
       <Header>
         <Menu />
         <div className="flex flex-wrap flex-1 items-center">
@@ -204,7 +203,79 @@ function Home() {
           </p>
         </Tools>
       </Container>
-      <ContainerDown className="relative"></ContainerDown>
+      <ContainerDown className="relative">
+        <div
+          style={{
+            width: "30vw",
+            marginTop: "24vh",
+            marginLeft: "8vw",
+            fontSize: "3.2vh",
+            lineHeight: "7vh"
+          }}
+          className="absolute text-center"
+        >
+          O <b> React Native </b>é uma biblioteca que permite criar aplicativos
+          para celular usando apenas JavaScript. Ele usa o mesmo design que o
+          React.
+        </div>
+        <div
+          style={{
+            width: "30vw",
+            marginTop: "63vh",
+            marginRight: "8vw",
+            fontSize: "3.2vh",
+            lineHeight: "7vh"
+          }}
+          className="absolute right-0 text-center"
+        >
+          O <b> Node.JS </b> pode ser definido como um ambiente de execução
+          JavaScript server-side. Isso significa que com o Node.JS é possível
+          criar aplicações JavaScript.
+        </div>
+        <div
+          style={{
+            width: "33vw",
+            marginTop: "141vh",
+            marginLeft: "6vw",
+            fontSize: "3.2vh",
+            lineHeight: "7vh"
+          }}
+          className="absolute text-center"
+        >
+          <p>
+            <b>Git </b> é um sistema de controle de versões,{" "}
+          </p>
+          usado principalmente no desenvlvimento de software, mas pode ser usado
+          para registrar o histórico de adições de qualquer arquvio.
+        </div>
+        <div
+          style={{
+            width: "25vw",
+            marginBottom: "87vh",
+            marginRight: "10vw",
+            fontSize: "3.2vh",
+            lineHeight: "7vh"
+          }}
+          className="absolute bottom-0 right-0 text-center"
+        >
+          O <b> Adobe XD </b> é uma ferramenta de desing de experiência do
+          usuário baseada em vetor para aplicativos Web, e aplicativos móveis.
+        </div>
+        <div
+          style={{
+            width: "30vw",
+            marginBottom: "13vh",
+            marginLeft: "8vw",
+            fontSize: "3.2vh",
+            lineHeight: "7vh"
+          }}
+          className="absolute bottom-0 text-center"
+        >
+          O <b> Adobe Ilustrator </b> é um programa utilizado por designers
+          gráficos com foco em ilustrações. Ele permite uma interação maior
+          entre os usuários e desenvolvedores.
+        </div>
+      </ContainerDown>
       <Footer />
     </div>
   );
