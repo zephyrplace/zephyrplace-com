@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Img, Line, ContainerTxt, Text, Text2 } from "./styles";
-import Fogete from "../../assets/svg/rocket.svg";
+import Fogete from "../../assets/svg/LOGOBRANCOSVG.svg";
 import Linkedin from "../../assets/svg/LinkedIn.svg";
 import Facebook from "../../assets/svg/facebook.svg";
 import Git from "../../assets/svg/github.svg";
@@ -11,8 +11,8 @@ export default function Footer() {
   return (
     <Container>
       <Img>
-        <div style={{ display: "flex", flexDirection: "row" }}>
-          <img src={Fogete} alt="Foguetinho." />
+        <div style={{ display: "flex", flexDirection: "row", width: "10vw" }}>
+          <img src={Fogete} alt="Foguetinho" />
         </div>
         <div
           style={{
@@ -32,7 +32,7 @@ export default function Footer() {
       </Img>
       <Line />
       <ContainerTxt>
-        <Text>Blog</Text>
+        <Text href={"/"}>Home</Text>
         <Text href={"/Projects"}>Projetos</Text>
         <Text href={"/About"}>Sobre Nós</Text>
       </ContainerTxt>

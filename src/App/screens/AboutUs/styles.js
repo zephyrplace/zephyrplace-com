@@ -31,6 +31,10 @@ export const Container2 = styled.div`
 export const Image = styled.img`
   height: ${props => props.height || "50vh"};
   width: ${props => props.width || "20vw"};
+  @media (max-width: 1000px) {
+    height: 15vh;
+    width: 25vw;
+  }
 `;
 
 export const ContainerImg = styled.div`
@@ -46,4 +50,7 @@ export const ContainerImg = styled.div`
   justify-content: space-around;
   align-items: center;
   margin-top: 17vh;
+  @media (max-width: 1000px) {
+    height: 10vh;
+  }
 `;

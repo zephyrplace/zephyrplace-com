@@ -8,8 +8,7 @@ export function Here() {
       style={{
         backgroundImage: "white",
         height: "40vh",
-        justifyContent: "space-around",
-        marginTop: "10vh"
+        justifyContent: "space-around"
       }}
     >
       <div

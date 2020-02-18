@@ -25,7 +25,7 @@ function AboutUs() {
             className="absolute right-0"
             style={{ marginTop: "25vh", marginRight: "15vw" }}
           >
-            <p style={{ fontSize: 35 }} className=" mx-8 p-3">
+            <p style={{ fontSize: 35 }} className="p-3">
               <b>Conheça </b> nossa história!
             </p>
           </div>
@@ -36,12 +36,12 @@ function AboutUs() {
             className="absolute flex flex-col items-center "
           >
             <div className="flex flex-row ">
-              <p style={{ fontSize: 30 }} className=" mx-8 p-3 ">
+              <p style={{ fontSize: 30 }} className="p-3 ">
                 <b>Como a ZP surgiu </b>
               </p>
             </div>
             <div className="flex flex-row">
-              <p style={{ fontSize: 20 }} className=" mx-8 p-3 text-center">
+              <p style={{ fontSize: 20 }} className="p-3 text-justify">
                 A Zephyr Place surgiu há alguns anos atrás quando um time de
                 <b> pessoas revolucionárias </b>decidiu criar algo que ajudasse
                 tanto as grandes empresas quanto os menores empreendedores a
@@ -56,12 +56,12 @@ function AboutUs() {
             className="absolute bottom-0 flex flex-col items-center "
           >
             <div className="flex flex-row ">
-              <p style={{ fontSize: 30 }} className=" mx-8 p-3 ">
+              <p style={{ fontSize: 30 }} className="p-3 ">
                 <b>Nossa missão </b>
               </p>
             </div>
             <div className="flex flex-row">
-              <p style={{ fontSize: 20 }} className=" mx-8 p-3 text-center">
+              <p style={{ fontSize: 20 }} className="p-3 text-justify">
                 <b>Renovar, Inovar e Impressionar! </b> Trabalhamos para que os
                 nossos clientes tenham um grande upgrade nos seus projetos
                 atuais com as melhores tecnologias disponíveis no mercado
@@ -73,12 +73,12 @@ function AboutUs() {
             className="absolute right-0 flex flex-col items-center "
           >
             <div className="flex flex-row ">
-              <p style={{ fontSize: 30 }} className=" mx-8 p-3 ">
+              <p style={{ fontSize: 30 }} className="p-3 ">
                 <b>Nossa visão </b>
               </p>
             </div>
             <div className="flex flex-row">
-              <p style={{ fontSize: 20 }} className=" mx-8 p-3 text-center">
+              <p style={{ fontSize: 20 }} className="p-3 text-justify">
                 Queremos ampliar os nossos negócios e ajudar cada vez mais
                 pessoas através da tecnologia, que tem se tornado um dos motores
                 da nossa sociedade atual, para que todos tenham a oportunidade
@@ -93,7 +93,7 @@ function AboutUs() {
               padding: "5vh 5vw",
               width: "100%",
               justifyContent: "space-between",
-              marginTop: "4vh"
+              marginTop: "1.5vh"
             }}
             className="flex flex-row"
           >

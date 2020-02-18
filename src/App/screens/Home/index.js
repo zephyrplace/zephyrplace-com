@@ -6,6 +6,7 @@ import { Here } from "../../../components/Here";
 import { Container, Section, Image, Tools, ContainerDown } from "./styles";
 import Footer from "../../../components/Footer";
 import { Waves } from "../../../components/Waves";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 import photo from "../../../assets/svg/Mulher-lampada.svg";
 import section1 from "../../../assets/svg/Section1.svg";
@@ -14,15 +15,18 @@ import section3 from "../../../assets/svg/Section3.svg";
 import section4 from "../../../assets/svg/Section4.svg";
 import section5 from "../../../assets/svg/Section5.svg";
 import section6 from "../../../assets/svg/Section6.svg";
-import fogete from "../../../assets/svg/fogetefrase.svg";
+import fogete from "../../../assets/image/Fogete/Fogete.png";
 
 function Home() {
   return (
     <div style={{ backgroundColor: "#f8f9fa" }}>
       <Header>
         <Menu />
-        <div className="flex flex-wrap flex-1 items-center">
-          <div className="flex w-full md:w-2/6 lg:w-2/6 xl:w-2/6 p-3 mx-10">
+        <div
+          style={{ marginBottom: "-15vh" }}
+          className="aboslute flex flex-wrap flex-1 items-center"
+        >
+          <div className="flex w-full md:w-2/5 lg:w-2/6 mx-10">
             <img
               src={photo}
               className="flex-1 rounded-full object-cover"
@@ -35,13 +39,18 @@ function Home() {
               tecnologias do mercado e mantenha o seu negócio no <b>topo!</b>
             </div>
             <br />
-            <Button> SAIBA MAIS</Button>
+            <div style={{ marginLeft: "16vw" }}>
+              <Link to="middle" smooth duration={500}>
+                <Button> SAIBA MAIS</Button>
+              </Link>
+            </div>
           </div>
         </div>
         <Waves />
       </Header>
       <Container className="flex flex-col items-center mx-auto justify-around">
-        <div>
+        <div style={{ height: "0", marginBottom: "-25vh" }} id="middle"></div>
+        <div style={{ marginBottom: "-10vh" }}>
           <img src={fogete} alt="Frase" />
         </div>
         <Here />
@@ -49,7 +58,7 @@ function Home() {
           <p style={{ fontSize: 35, fontWeight: 600 }}>NOSSAS ETAPAS BÁSICAS</p>
           <div
             style={{
-              marginTop: "20vh",
+              marginTop: "10vh",
               backgroundColor: "white",
               width: "100vw",
               height: "35vh",

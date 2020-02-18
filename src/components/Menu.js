@@ -1,13 +1,13 @@
-import React from 'react'
-import logo from '../assets/svg/Caminho 1.svg'
-import zephyrplace from '../assets/svg/Grupo 57.svg'
+import React from "react";
+import logo from "../assets/svg/Caminho 1.svg";
+import zephyrplace from "../assets/svg/Grupo 57.svg";
 
-export function Menu () {
+export function Menu() {
   return (
-    <div className='flex justify-between p-4'>
-      <div className='flex justify-around'>
-        <img src={logo} className='flex-1' alt='logo' />
-        <img src={zephyrplace} className='flex-1 ml-10' alt='logo' />
+    <div className="flex justify-between p-4">
+      <div className="flex justify-around">
+        <img src={logo} className="flex-1" alt="logo" />
+        <img src={zephyrplace} className="flex-1 ml-10" alt="logo" />
       </div>
 
       {/* vamos fazer o menu responsivo depois ! :D */}
@@ -20,5 +20,5 @@ export function Menu () {
         <a className='text-white text-lg font-bold'>CONTATO</a>
       </div> */}
     </div>
-  )
+  );
 }
