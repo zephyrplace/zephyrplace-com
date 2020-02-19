@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Back from "../../../assets/svg/CaraCaminho.svg";
+import Back from "../../../../assets/svg/CaraCaminho.svg";
 
 export const Container = styled.div`
   min-height: 420vh;

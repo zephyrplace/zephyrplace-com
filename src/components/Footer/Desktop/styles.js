@@ -35,9 +35,12 @@ export const ContainerTxt = styled.div`
   justify-content: space-around;
 `;
 
-export const Text = styled.a`
+export const A = styled.a`
   color: white;
   font-weight: 600px;
+  :hover {
+    color: grey;
+  }
 `;
 
 export const Text2 = styled.text`

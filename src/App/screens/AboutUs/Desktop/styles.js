@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-import fogete from "../../../assets/svg/fogetevoando.svg";
-import photo from "../../../assets/svg/carasentado.svg";
-import quadrados from "../../../assets/svg/quadrados.svg";
+import fogete from "../../../../assets/svg/fogetevoando.svg";
+import photo from "../../../../assets/svg/carasentado.svg";
+import quadrados from "../../../../assets/svg/quadrados.svg";
 
 export const Container = styled.div`
   width: 100%;

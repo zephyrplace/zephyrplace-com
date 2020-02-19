@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Grupo from "../../../assets/image/Grupo/Grupo.jpg";
+import Grupo from "../../../../assets/image/Grupo/Grupo.jpg";
 
 export const Container = styled.div`
   min-height: 390vh;

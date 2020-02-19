@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import App from "./App/routes";
 import * as serviceWorker from "./serviceWorker";
 import "./styles/index.css";
+import "antd/dist/antd.css";
 
 import "./styles/tailwind.css";
 ReactDOM.render(<App />, document.getElementById("root"));
