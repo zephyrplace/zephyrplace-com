@@ -50,6 +50,15 @@ export const Image2 = styled.div`
   align-items: center;
   margin-top: 10vh;
 `;
+export const ImgV2 = styled.img`
+  height: 35vh;
+  width: 70vw;
+  margin-left: 10vw;
+  margin-top: 10vw;
+  @media (max-width: 375px) {
+    margin-top: 30vw;
+  }
+`;
 
 export const ImgV = styled.img`
   height: 40vh;

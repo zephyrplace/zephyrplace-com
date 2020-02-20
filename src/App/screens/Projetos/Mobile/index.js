@@ -8,6 +8,7 @@ import {
   Image2,
   ImgH,
   ImgV,
+  ImgV2,
   ButtonScrool,
   Button,
   Text,
@@ -16,7 +17,7 @@ import {
 } from "./styles";
 import { Link, animateScroll as scroll } from "react-scroll";
 
-import photo from "../../../../assets/svg/Mulher.svg";
+import photo from "../../../../assets/image/proj/img_projetos.png";
 import Apoyo from "../../../../assets/image/APOYO/Apoyo.jpg";
 import BPP from "../../../../assets/image/BPP/BPP.png";
 import CAP from "../../../../assets/image/CAP/CAP.jpg";
@@ -36,15 +37,15 @@ function MobileProjects() {
             </P>
           </Text>
           <div style={{ marginLeft: "5vw" }}>
-            <ImgV src={photo} />
+            <ImgV2 src={photo} />
           </div>
         </Image2>
         <ContainerProj>
           <ImgV src={BPP} alt="Projeto" />
 
-          <p style={{ marginTop: "2vh" }} className="text-2xl text-center">
+          <P style={{ marginTop: "2vh" }} className="text-2xl text-center">
             Aplicativo Mobile - <b>BPP</b>
-          </p>
+          </P>
           <br />
           <br />
           <P2>
@@ -58,9 +59,9 @@ function MobileProjects() {
         </ContainerProj>
         <ContainerProj>
           <ImgV src={CAP} alt="Projeto" />
-          <p style={{ marginTop: "2vh" }} className="text-2xl text-center">
+          <P style={{ marginTop: "2vh" }} className="text-2xl text-center">
             Aplicativo Mobile - <b>CAP</b>
-          </p>
+          </P>
           <br />
           <br />
           <P2>
@@ -74,9 +75,9 @@ function MobileProjects() {
         </ContainerProj>
         <ContainerProj>
           <ImgV src={TVM} alt="Projeto" />
-          <p style={{ marginTop: "2vh" }} className="text-2xl text-center">
+          <P style={{ marginTop: "2vh" }} className="text-2xl text-center">
             Aplicativo Mobile - <b>TVM</b>
-          </p>
+          </P>
           <br />
           <br />
           <P2>
@@ -90,9 +91,9 @@ function MobileProjects() {
         </ContainerProj>
         <ContainerProj>
           <ImgH src={Apoyo} alt="Projeto" />
-          <p style={{ marginTop: "2vh" }} className="text-2xl text-center">
+          <P style={{ marginTop: "2vh" }} className="text-2xl text-center">
             Aplicativo Web - <b>Apoyo</b>
-          </p>
+          </P>
           <br />
           <br />
           <P2>
@@ -106,9 +107,9 @@ function MobileProjects() {
         </ContainerProj>
         <ContainerProj>
           <ImgH src={JWF} alt="Projeto" />
-          <p style={{ marginTop: "2vh" }} className="text-2xl text-center">
+          <P style={{ marginTop: "2vh" }} className="text-2xl text-center">
             Aplicativo Web - <b>JWF</b>
-          </p>
+          </P>
           <br />
           <br />
           <P2>

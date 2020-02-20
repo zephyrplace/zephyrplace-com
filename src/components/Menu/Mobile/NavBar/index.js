@@ -19,7 +19,7 @@ export default function NavBar({ open, onClose }) {
           <MenuText>Projetos</MenuText>
         </Item>
 
-        <Item key="3" onClick={() => history.push("/AboutUs")}>
+        <Item key="3" onClick={() => history.push("/About")}>
           <MenuText>Sobre nós</MenuText>
         </Item>
       </Menu>
