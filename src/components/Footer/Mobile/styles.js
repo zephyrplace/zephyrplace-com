@@ -2,7 +2,6 @@ import styled from "styled-components";
 import Fogete from "../../../assets/svg/LOGOBRANCOSVG.svg";
 
 export const Container = styled.div`
-  display: flex;
   flex-direction: column;
   background-color: black;
   width: 100vw;
@@ -26,7 +25,7 @@ export const Logo = styled.div`
   background-repeat: no-repeat;
   background-size: contain;
   @media (max-width: 1024px) {
-    margin-left: 25vw;
+    margin-left: 20vw;
     height: 20vh;
     width: 50vw;
   }
@@ -49,27 +48,23 @@ export const Img2 = styled.img`
 export const Icons = styled.div`
   display: flex;
   flex-direction: row;
-  width: 90vw;
+  width: 70vw;
   height: 3vh;
   justify-content: space-between;
 `;
 
 export const Img = styled.div`
-  display: flex;
-  flex-direction: column;
-  padding: 9vh 9vw;
+  display: inline-block;
+  padding: 5vh;
   align-items: center;
   justify-content: center;
+  width: 80vw;
 `;
 
 export const Line = styled.div`
   height: 2px;
-  width: 50vh;
-  display: flex;
+  width: 40vh;
   background-color: white;
-  @media (max-width: 375px) {
-    width: 40vh;
-  }
 `;
 
 export const ContainerTxt = styled.div`
@@ -77,7 +72,7 @@ export const ContainerTxt = styled.div`
   flex-direction: row;
   padding: 4vh 7vw;
   height: 40vh;
-  width: 100vw;
+  width: 90vw;
   justify-content: space-between;
 `;
 
@@ -94,8 +89,7 @@ export const Text2 = styled.text`
   text-align: center;
 `;
 export const ContainerTxt2 = styled.div`
-  display: flex;
-  flex-direction: column;
   align-items: center;
   margin-top: -25vh;
+  width: 90vw;
 `;

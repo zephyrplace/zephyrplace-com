@@ -10782,7 +10782,11 @@ video {
 
 html {
   font-family: Montserrat, sans-serif;
-  overflow-x: hidden;
+  max-width: 100vw !important;
+  position: relative;
+  overflow-x: hidden !important;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 .subitle {

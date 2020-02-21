@@ -9,12 +9,14 @@ import { Here } from "../../../../components/Heremobile/Heremobile";
 import {
   Container,
   HeadContainer,
+  ContainerDown,
   IMG,
   TextTitle,
   Section,
   Image,
   Tools,
-  P
+  P,
+  P2
 } from "./styles";
 
 import photo from "../../../../assets/svg/Mulher-lampada.svg";
@@ -24,6 +26,11 @@ import section3 from "../../../../assets/svg/Section3.svg";
 import section4 from "../../../../assets/svg/Section4.svg";
 import section5 from "../../../../assets/svg/Section5.svg";
 import section6 from "../../../../assets/svg/Section6.svg";
+import Ai from "../../../../assets/image/AI/balao_illustrator.png";
+import Git from "../../../../assets/image/Git/balao_git.png";
+import Node from "../../../../assets/image/Node/balao_node.png";
+import Reacts from "../../../../assets/image/Balao/balao_react.png";
+import XD from "../../../../assets/image/XD/balao_xd.png";
 
 function MobileHome() {
   return (
@@ -202,9 +209,44 @@ function MobileHome() {
             </div>
           </div>
         </Section>
-        <Tools>
+        <ContainerDown>
           <P>FERRAMENTAS QUE USAMOS</P>
-        </Tools>
+          <Tools style={{ marginTop: "20vh" }} background={Reacts}>
+            <P2>
+              O <strong> React Native </strong>é uma biblioteca que permite
+              criar aplicativos para celular usando apenas JavaScript. Ele usa o
+              mesmo design que o React.
+            </P2>
+          </Tools>
+          <Tools background={Node}>
+            <P2>
+              O <b> Node.JS </b> pode ser definido como um ambiente de execução
+              JavaScript server-side. Isso significa que com o Node.JS é
+              possível criar aplicações JavaScript.
+            </P2>
+          </Tools>
+          <Tools background={Git}>
+            <P2>
+              <b>Git </b> é um sistema de controle de versões, usado
+              principalmente no desenvlvimento de software, mas pode ser usado
+              para registrar o histórico de adições de qualquer arquvio.
+            </P2>
+          </Tools>
+          <Tools background={XD}>
+            <P2>
+              O <b> Adobe XD </b> é uma ferramenta de desing de experiência do
+              usuário baseada em vetor para aplicativos Web, e aplicativos
+              móveis.
+            </P2>
+          </Tools>
+          <Tools background={Ai}>
+            <P2>
+              O <b> Adobe Ilustrator </b> é um programa utilizado por designers
+              gráficos com foco em ilustrações. Ele permite uma interação maior
+              entre os usuários e desenvolvedores.
+            </P2>
+          </Tools>
+        </ContainerDown>
       </Container>
       <Footer />
     </div>
