@@ -20,23 +20,13 @@ export const Logo = styled.div`
   display: flex;
   flex-direction: row;
   width: 45vw;
-  margin-left: 10vw;
+  margin: auto;
   background-image: url(${Fogete});
   background-repeat: no-repeat;
   background-size: contain;
   @media (max-width: 1024px) {
-    margin-left: 22vw;
     height: 20vh;
     width: 50vw;
-  }
-  @media (max-width: 768px) {
-    margin-left: 23vw;
-  }
-  @media (max-width: 414px) {
-    margin-left: 15vw;
-  }
-  @media (max-width: 411px) {
-    margin-left: 14vw;
   }
 `
 
@@ -51,6 +41,7 @@ export const Icons = styled.div`
   width: 70vw;
   height: 3vh;
   justify-content: space-between;
+  margin: auto;
 `
 
 export const Img = styled.div`
@@ -58,28 +49,24 @@ export const Img = styled.div`
   align-items: center;
   justify-content: center;
   min-width: 80vw;
-  margin-left: 8vw;
+  margin: auto;
 `
 
 export const Line = styled.div`
   height: 2px;
   width: 45vh;
   background-color: white;
-  margin-left: 10vw;
+  margin: auto;
   @media (max-width: 1024px) {
-    margin-left: 15vw;
     width: 55vh;
   }
   @media (max-width: 768px) {
-    margin-left: 15vw;
     width: 55vh;
   }
   @media (max-width: 414px) {
-    margin-left: 10vw;
     width: 45vh;
   }
   @media (max-width: 375px) {
-    margin-left: 15vw;
     width: 40vh;
   }
 `

@@ -10,7 +10,7 @@ import {
   Container,
   HeadContainer,
   ContainerDown,
-  IMG,
+  Img,
   TextTitle,
   Section,
   Image,
@@ -47,7 +47,7 @@ function MobileHome () {
           <Link to='middle' smooth duration={500}>
             <Button> SAIBA MAIS</Button>
           </Link>
-          <IMG src={photo} styleclassName='object-cover' alt='img' />
+          <Img src={photo} styleclassName='object-cover' alt='img' />
         </HeadContainer>
         <Waves />
       </Header>

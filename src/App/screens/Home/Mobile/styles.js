@@ -27,7 +27,7 @@ export const HeadContainer = styled.div`
   }
 `
 
-export const IMG = styled.img`
+export const Img = styled.img`
   height: 45vh;
   width: 40vw;
   margin-bottom: -10vh;
