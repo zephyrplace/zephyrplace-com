@@ -82,7 +82,7 @@ export const ContainerImg = styled.div`
   background-repeat: no-repeat;
   background-color: #f8f9fa;
   width: 100%;
-  height: 120vh;
+  min-height: 120vh;
   justify-content: space-around;
   align-items: center;
   @media (max-width: 414px) {

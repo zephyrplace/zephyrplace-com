@@ -30,7 +30,13 @@ export const HeadContainer = styled.div`
 export const IMG = styled.img`
   height: 45vh;
   width: 40vw;
-  margin-bottom: -5vh;
+  margin-bottom: -10vh;
+  @media (max-width: 1024px) {
+    margin-bottom: -8vh;
+  }
+  @media (max-width: 500px) {
+    margin-bottom: -12vh;
+  }
 `;
 
 export const Image = styled.img`
@@ -43,6 +49,9 @@ export const P = styled.p`
   font-weight: 600;
   @media (max-width: 414px) {
     font-size: 4vh;
+  }
+  @media (max-width: 411px) {
+    font-size: 3vh;
   }
 `;
 
@@ -58,7 +67,7 @@ export const ContainerDown = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 320vh;
-  width: 100vw;
+  min-width: 50vw;
   background: #f8f9fa;
   align-items: center;
   justify-content: center;
@@ -69,13 +78,17 @@ export const P2 = styled.p`
   font-size: 3vh;
   line-height: 5vh;
   text-align: center;
-  width: 55vh;
+  max-width: 55vh;
   padding: 15vh 6vw;
+  @media (max-width: 411px) {
+    margin-top: -2vh;
+    font-size: 2.3vh;
+  }
 `;
 
 export const Tools = styled.div`
-  width: 90vw;
-  height: 40vh;
+  min-width: 90vw;
+  min-height: 40vh;
   align-items: center;
   justify-content: center;
   background-image: ${props => `url(${props.background})` || "none"};

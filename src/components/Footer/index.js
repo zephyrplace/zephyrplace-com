@@ -1,6 +1,6 @@
 import React from "react";
 import { useMediaQuery } from "react-responsive";
-import Desktop from "./Mobile";
+import Desktop from "./Desktop";
 import Mobile from "./Mobile";
 
 export default function Footer() {

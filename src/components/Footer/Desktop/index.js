@@ -1,15 +1,16 @@
 import React from "react";
-import { Container, Img, Line, ContainerTxt, A, Text2 } from "./styles";
-import Fogete from "../../assets/svg/LOGOBRANCOSVG.svg";
-import Linkedin from "../../assets/svg/LinkedIn.svg";
-import Facebook from "../../assets/svg/facebook.svg";
-import Git from "../../assets/svg/github.svg";
-import Insta from "../../assets/svg/instagram.svg";
-import Zap from "../../assets/svg/whatsapp.svg";
+import { Container, Img, Line, ContainerTxt, A, Text2 } from "./style";
+import Fogete from "../../../assets/svg/LOGOBRANCOSVG.svg";
+import Linkedin from "../../../assets/svg/LinkedIn.svg";
+import Facebook from "../../../assets/svg/facebook.svg";
+import Git from "../../../assets/svg/github.svg";
+import Insta from "../../../assets/svg/instagram.svg";
+import Zap from "../../../assets/svg/whatsapp.svg";
 
 export default function Desktop() {
   return (
     <Container>
+      <text>teste</text>
       <Img>
         <div style={{ display: "flex", flexDirection: "row", width: "10vw" }}>
           <img src={Fogete} alt="Foguetinho" />

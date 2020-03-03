@@ -5,11 +5,13 @@ export const Container = styled.div`
   flex-direction: row;
   background-color: black;
   width: 100vw;
-  min-height: 45vh;
+  height: 45vh;
   justify-content: center;
 `;
 
 export const Img = styled.div`
+  min-height: 10vh;
+  min-width: 10vw;
   display: flex;
   flex-direction: column;
   padding: 9vh 9vw;

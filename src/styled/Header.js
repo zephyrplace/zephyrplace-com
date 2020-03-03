@@ -5,7 +5,7 @@ const Header = styled.div`
   flex-direction: column;
   flex-wrap: wrap;
   /* padding: 2.5rem; */
-  width: 100vw;
+  max-width: 100vw;
   min-height: 60vh;
   background-color: ${props => props.backgroundColor || "black"};
 `;

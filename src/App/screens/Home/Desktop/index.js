@@ -228,7 +228,7 @@ export default function DesktopHome() {
         <div
           style={{
             width: "30vw",
-            marginTop: "63vh",
+            marginTop: "65vh",
             marginRight: "8vw",
             fontSize: "3.2vh",
             lineHeight: "7vh"
@@ -271,7 +271,7 @@ export default function DesktopHome() {
         <div
           style={{
             width: "30vw",
-            marginBottom: "13vh",
+            marginBottom: "20vh",
             marginLeft: "8vw",
             fontSize: "3.2vh",
             lineHeight: "7vh"
