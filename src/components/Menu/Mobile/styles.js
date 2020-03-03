@@ -1,8 +1,8 @@
-import styled from "styled-components";
-import * as Antd from "antd";
+import styled from 'styled-components'
+import * as Antd from 'antd'
 
 // Helpers
-import logo from "../../../assets/svg/Caminho 1.svg";
+import logo from '../../../assets/svg/Caminho 1.svg'
 
 export const Container = styled.div`
   top: 0;
@@ -15,12 +15,12 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   background-color: black;
-`;
+`
 
 export const Image = styled.img`
   src: url(${logo});
   height: 10vh;
-`;
+`
 
 export const Button = styled(Antd.Icon)`
   flex: 1;
@@ -30,4 +30,4 @@ export const Button = styled(Antd.Icon)`
   font-size: 30px;
   color: white;
   position: absolute;
-`;
+`

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
@@ -7,7 +7,7 @@ export const Container = styled.div`
   width: 100vw;
   height: 45vh;
   justify-content: center;
-`;
+`
 
 export const Img = styled.div`
   min-height: 10vh;
@@ -17,7 +17,7 @@ export const Img = styled.div`
   padding: 9vh 9vw;
   align-items: center;
   justify-content: space-around;
-`;
+`
 
 export const Line = styled.div`
   width: 2px;
@@ -26,7 +26,7 @@ export const Line = styled.div`
   flex-direction: column;
   background-color: white;
   margin-top: 5.8vh;
-`;
+`
 
 export const ContainerTxt = styled.div`
   display: flex;
@@ -35,7 +35,7 @@ export const ContainerTxt = styled.div`
   height: 40vh;
   margin-top: 30px;
   justify-content: space-around;
-`;
+`
 
 export const A = styled.a`
   color: white;
@@ -45,9 +45,9 @@ export const A = styled.a`
   :hover {
     color: grey;
   }
-`;
+`
 
 export const Text2 = styled.text`
   color: white;
-  font-style: ${props => props.fontStyle || "none"};
-`;
+  font-style: ${props => props.fontStyle || 'none'};
+`

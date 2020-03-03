@@ -1,43 +1,43 @@
-import React from "react";
+import React from 'react'
 
-export function Waves() {
+export function Waves () {
   return (
     <div>
       <svg
-        className="waves"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 24 150 28"
-        preserveAspectRatio="none"
-        shapeRendering="auto"
+        className='waves'
+        xmlns='http://www.w3.org/2000/svg'
+        viewBox='0 24 150 28'
+        preserveAspectRatio='none'
+        shapeRendering='auto'
       >
         <defs>
           <path
-            id="gentle-wave"
-            d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+            id='gentle-wave'
+            d='M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z'
           />
         </defs>
-        <g className="parallax">
+        <g className='parallax'>
           <use
-            xlinkHref="#gentle-wave"
-            x="48"
-            y="0"
-            fill="rgba(255,255,255,0.7"
+            xlinkHref='#gentle-wave'
+            x='48'
+            y='0'
+            fill='rgba(255,255,255,0.7'
           />
           <use
-            xlinkHref="#gentle-wave"
-            x="48"
-            y="3"
-            fill="rgba(255,255,255,0.5)"
+            xlinkHref='#gentle-wave'
+            x='48'
+            y='3'
+            fill='rgba(255,255,255,0.5)'
           />
           <use
-            xlinkHref="#gentle-wave"
-            x="48"
-            y="5"
-            fill="rgba(255,255,255,0.3)"
+            xlinkHref='#gentle-wave'
+            x='48'
+            y='5'
+            fill='rgba(255,255,255,0.3)'
           />
-          <use xlinkHref="#gentle-wave" x="48" y="7" fill="#f8f9fa" />
+          <use xlinkHref='#gentle-wave' x='48' y='7' fill='#f8f9fa' />
         </g>
       </svg>
     </div>
-  );
+  )
 }

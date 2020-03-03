@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import {
   Container,
   Img,
@@ -10,39 +10,40 @@ import {
   Text2,
   Logo,
   Icons
-} from "./styles";
-import Linkedin from "../../../assets/svg/LinkedIn.svg";
-import Facebook from "../../../assets/svg/facebook.svg";
-import Git from "../../../assets/svg/github.svg";
-import Insta from "../../../assets/svg/instagram.svg";
-import Zap from "../../../assets/svg/whatsapp.svg";
+} from './styles'
+import Linkedin from '../../../assets/svg/LinkedIn.svg'
+import Facebook from '../../../assets/svg/facebook.svg'
+import Git from '../../../assets/svg/github.svg'
+import Insta from '../../../assets/svg/instagram.svg'
+import Zap from '../../../assets/svg/whatsapp.svg'
 
-export default function Mobile() {
+export default function Mobile () {
   return (
     <Container>
       <Img>
         <Logo />
         <Icons>
-          <Img2 src={Zap} alt="Logo LinkedIn" />
-          <Img2 src={Insta} alt="Logo LinkedIn" />
-          <Img2 src={Facebook} alt="Logo LinkedIn" />
-          <Img2 src={Git} alt="Logo LinkedIn" />
-          <Img2 src={Linkedin} alt="Logo LinkedIn" />
+          <Img2 src={Zap} alt='Logo LinkedIn' />
+          <Img2 src={Insta} alt='Logo LinkedIn' />
+          <Img2 src={Facebook} alt='Logo LinkedIn' />
+          <Img2 src={Git} alt='Logo LinkedIn' />
+          <Img2 src={Linkedin} alt='Logo LinkedIn' />
         </Icons>
       </Img>
       <Line />
       <ContainerTxt>
-        <Text href={"/"}>Home</Text>
-        <Text href={"/Projects"}>Projetos</Text>
-        <Text href={"/About"}>Sobre Nós</Text>
+        <Text href='/'>Home</Text>
+        <Text href='/Projects'>Projetos</Text>
+        <Text href='/About'>Sobre Nós</Text>
       </ContainerTxt>
 
       <ContainerTxt2>
-        <Text2 fontStyle="bold">Fale com a gente</Text2>
+        <Text2 fontStyle='bold'>Fale com a gente</Text2>
+        <br />
         <Text2>contact@zephyrplace.com</Text2>
         <br />
         <br />
-        <Text2 fontStyle="bold">Atendimento</Text2>
+        <Text2 fontStyle='bold'>Atendimento</Text2>
         <Text2>
           Segunda a sexta - 8h às 17h
           <br />
@@ -56,5 +57,5 @@ export default function Mobile() {
         </Text2>
       </ContainerTxt2>
     </Container>
-  );
+  )
 }
