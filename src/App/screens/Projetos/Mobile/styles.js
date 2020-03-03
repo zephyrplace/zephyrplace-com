@@ -1,11 +1,11 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
-import arrow from "../../../../assets/svg/arrowdown.svg";
+import arrow from '../../../../assets/svg/arrowdown.svg'
 
 export const ContainerBig = styled.div`
   min-height: 600vh;
   background: #f8f9fa;
-`;
+`
 
 export const ContainerProj = styled.div`
   display: flex;
@@ -16,13 +16,13 @@ export const ContainerProj = styled.div`
   background: #f8f9fa;
   margin-top: 10vh;
   align-items: center;
-`;
+`
 
 export const Container = styled.div`
   min-height: 600vh;
   background: #f8f9fa;
   align-items: center;
-`;
+`
 
 export const ButtonScrool = styled.div`
   border-radius: 100px;
@@ -40,7 +40,7 @@ export const ButtonScrool = styled.div`
     width: 13vw;
     height: 6vh;
   }
-`;
+`
 
 export const Image2 = styled.div`
   display: flex;
@@ -49,7 +49,7 @@ export const Image2 = styled.div`
   min-height: 30vh;
   align-items: center;
   margin-top: 10vh;
-`;
+`
 export const ImgV2 = styled.img`
   height: 35vh;
   width: 70vw;
@@ -58,16 +58,16 @@ export const ImgV2 = styled.img`
   @media (max-width: 375px) {
     margin-top: 30vw;
   }
-`;
+`
 
 export const ImgV = styled.img`
   height: 40vh;
   width: 50vw;
-`;
+`
 export const ImgH = styled.img`
   height: 25vh;
   width: 75vw;
-`;
+`
 
 export const Text = styled.div`
   display: flex;
@@ -75,18 +75,18 @@ export const Text = styled.div`
   width: 90vw;
   height: 30vh;
   margin-left: 8vw;
-`;
+`
 
 export const Button = styled.div`
   margin-left: 5vw;
   display: flex;
   flex-direction: row;
-`;
+`
 
 export const P = styled.p`
   font-size: 4vh;
-`;
+`
 export const P2 = styled.p`
   font-size: 3vh;
   text-align: center;
-`;
+`

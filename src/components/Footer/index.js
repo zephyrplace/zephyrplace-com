@@ -1,10 +1,10 @@
-import React from "react";
-import { useMediaQuery } from "react-responsive";
-import Desktop from "./Desktop";
-import Mobile from "./Mobile";
+import React from 'react'
+import { useMediaQuery } from 'react-responsive'
+import Desktop from './Desktop'
+import Mobile from './Mobile'
 
-export default function Footer() {
-  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
+export default function Footer () {
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
 
-  return isTabletOrMobile ? <Mobile /> : <Desktop />;
+  return isTabletOrMobile ? <Mobile /> : <Desktop />
 }

@@ -1,28 +1,28 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
-import quadrado from "../../../../assets/image/quadrado/Quadrado.png";
+import quadrado from '../../../../assets/image/quadrado/Quadrado.png'
 
 export const ContainerBig = styled.div`
   min-height: 420vh;
   background: #f8f9fa;
-`;
+`
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
   min-height: 80vh;
   align-items: center;
-`;
+`
 
 export const P = styled.p`
   font-size: 4vh;
-`;
+`
 export const P2 = styled.p`
   font-size: 4vh;
-`;
+`
 export const P3 = styled.p`
   font-size: 3vh;
-`;
+`
 
 export const Container2 = styled.div`
   display: flex;
@@ -31,7 +31,7 @@ export const Container2 = styled.div`
   min-height: 180vh;
   background-color: #f8f9fa;
   align-items: center;
-`;
+`
 
 export const Div1 = styled.div`
   margin-left: 13vh;
@@ -47,7 +47,7 @@ export const Div1 = styled.div`
   @media (max-width: 360px) {
     margin-left: 3vh;
   }
-`;
+`
 export const Div2 = styled.div`
   margin-left: 13vh;
   @media (max-width: 414px) {
@@ -59,7 +59,7 @@ export const Div2 = styled.div`
   @media (max-width: 360px) {
     margin-left: 6vh;
   }
-`;
+`
 export const Div3 = styled.div`
   margin-left: 13vh;
   @media (max-width: 414px) {
@@ -71,7 +71,7 @@ export const Div3 = styled.div`
   @media (max-width: 360px) {
     margin-left: 7vh;
   }
-`;
+`
 
 export const ContainerImg = styled.div`
   display: flex;
@@ -94,7 +94,7 @@ export const ContainerImg = styled.div`
   @media (max-width: 375px) {
     height: 75vh;
   }
-`;
+`
 
 export const Image = styled.img`
   height: 20vh;
@@ -116,4 +116,4 @@ export const Image = styled.img`
     margin-left: 1vh;
     margin-top: 1vh;
   }
-`;
+`

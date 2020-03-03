@@ -1,6 +1,6 @@
-import React from "react";
-import Menu from "../../../../components/Menu2";
-import Footer from "../../../../components/Footer";
+import React from 'react'
+import Menu from '../../../../components/Menu2'
+import Footer from '../../../../components/Footer'
 import {
   ContainerProj,
   ContainerBig,
@@ -14,36 +14,36 @@ import {
   Text,
   P,
   P2
-} from "./styles";
-import { Link, animateScroll as scroll } from "react-scroll";
+} from './styles'
+import { Link, animateScroll as scroll } from 'react-scroll'
 
-import photo from "../../../../assets/image/proj/img_projetos.png";
-import Apoyo from "../../../../assets/image/APOYO/Apoyo.jpg";
-import BPP from "../../../../assets/image/BPP/BPP.png";
-import CAP from "../../../../assets/image/CAP/CAP.jpg";
-import TVM from "../../../../assets/image/TVM/TVM.jpg";
-import JWF from "../../../../assets/image/JWF/JWF.jpg";
+import photo from '../../../../assets/image/proj/img_projetos.png'
+import Apoyo from '../../../../assets/image/APOYO/Apoyo.jpg'
+import BPP from '../../../../assets/image/BPP/BPP.png'
+import CAP from '../../../../assets/image/CAP/CAP.jpg'
+import TVM from '../../../../assets/image/TVM/TVM.jpg'
+import JWF from '../../../../assets/image/JWF/JWF.jpg'
 
-function MobileProjects() {
+function MobileProjects () {
   return (
     <ContainerBig>
       <Menu />
       <Container>
         <Image2>
           <Text>
-            <P className="text-center">
+            <P className='text-center'>
               Nossos <b>projetos</b> são desenvolvidos por uma equipe de ponta
               <b> preparada</b> para atender <b> todas</b> as suas ideias!
             </P>
           </Text>
-          <div style={{ marginLeft: "5vw" }}>
+          <div style={{ marginLeft: '5vw' }}>
             <ImgV2 src={photo} />
           </div>
         </Image2>
         <ContainerProj>
-          <ImgV src={BPP} alt="Projeto" />
+          <ImgV src={BPP} alt='Projeto' />
 
-          <P style={{ marginTop: "2vh" }} className="text-2xl text-center">
+          <P style={{ marginTop: '2vh' }} className='text-2xl text-center'>
             Aplicativo Mobile - <b>BPP</b>
           </P>
           <br />
@@ -58,8 +58,8 @@ function MobileProjects() {
           </P2>
         </ContainerProj>
         <ContainerProj>
-          <ImgV src={CAP} alt="Projeto" />
-          <P style={{ marginTop: "2vh" }} className="text-2xl text-center">
+          <ImgV src={CAP} alt='Projeto' />
+          <P style={{ marginTop: '2vh' }} className='text-2xl text-center'>
             Aplicativo Mobile - <b>CAP</b>
           </P>
           <br />
@@ -74,8 +74,8 @@ function MobileProjects() {
           </P2>
         </ContainerProj>
         <ContainerProj>
-          <ImgV src={TVM} alt="Projeto" />
-          <P style={{ marginTop: "2vh" }} className="text-2xl text-center">
+          <ImgV src={TVM} alt='Projeto' />
+          <P style={{ marginTop: '2vh' }} className='text-2xl text-center'>
             Aplicativo Mobile - <b>TVM</b>
           </P>
           <br />
@@ -90,8 +90,8 @@ function MobileProjects() {
           </P2>
         </ContainerProj>
         <ContainerProj>
-          <ImgH src={Apoyo} alt="Projeto" />
-          <P style={{ marginTop: "2vh" }} className="text-2xl text-center">
+          <ImgH src={Apoyo} alt='Projeto' />
+          <P style={{ marginTop: '2vh' }} className='text-2xl text-center'>
             Aplicativo Web - <b>Apoyo</b>
           </P>
           <br />
@@ -106,8 +106,8 @@ function MobileProjects() {
           </P2>
         </ContainerProj>
         <ContainerProj>
-          <ImgH src={JWF} alt="Projeto" />
-          <P style={{ marginTop: "2vh" }} className="text-2xl text-center">
+          <ImgH src={JWF} alt='Projeto' />
+          <P style={{ marginTop: '2vh' }} className='text-2xl text-center'>
             Aplicativo Web - <b>JWF</b>
           </P>
           <br />
@@ -124,6 +124,6 @@ function MobileProjects() {
       </Container>
       <Footer />
     </ContainerBig>
-  );
+  )
 }
-export default MobileProjects;
+export default MobileProjects
