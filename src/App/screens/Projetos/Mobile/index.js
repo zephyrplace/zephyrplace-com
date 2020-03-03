@@ -19,9 +19,9 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 import photo from "../../../../assets/image/proj/img_projetos.png";
 import Apoyo from "../../../../assets/image/APOYO/Apoyo.jpg";
-import BPP from "../../../../assets/image/BPP/BPP.png";
-import CAP from "../../../../assets/image/CAP/CAP.jpg";
-import TVM from "../../../../assets/image/TVM/TVM.jpg";
+import BPP from "../../../../assets/gif/MockupBPP.gif";
+import CAP from "../../../../assets/gif/MockupCAP.gif";
+import TVM from "../../../../assets/gif/MockupTVM.gif";
 import JWF from "../../../../assets/image/JWF/JWF.jpg";
 
 function MobileProjects() {

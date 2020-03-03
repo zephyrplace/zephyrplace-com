@@ -40,6 +40,8 @@ export const ContainerTxt = styled.div`
 export const A = styled.a`
   color: white;
   font-weight: 600px;
+  font-family: "Montserrat";
+  font-size: 2.7vh;
   :hover {
     color: grey;
   }

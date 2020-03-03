@@ -41,7 +41,7 @@ function DesktopAboutUs() {
               </p>
             </div>
             <div className="flex flex-row">
-              <p style={{ fontSize: 20 }} className="p-3 text-justify">
+              <p style={{ fontSize: 20 }} className="p-10 text-justify">
                 A Zephyr Place surgiu há alguns anos atrás quando um time de
                 <b> pessoas revolucionárias </b>decidiu criar algo que ajudasse
                 tanto as grandes empresas quanto os menores empreendedores a
@@ -61,7 +61,7 @@ function DesktopAboutUs() {
               </p>
             </div>
             <div className="flex flex-row">
-              <p style={{ fontSize: 20 }} className="p-3 text-justify">
+              <p style={{ fontSize: 20 }} className="p-10 text-justify">
                 <b>Renovar, Inovar e Impressionar! </b> Trabalhamos para que os
                 nossos clientes tenham um grande upgrade nos seus projetos
                 atuais com as melhores tecnologias disponíveis no mercado
@@ -78,7 +78,7 @@ function DesktopAboutUs() {
               </p>
             </div>
             <div className="flex flex-row">
-              <p style={{ fontSize: 20 }} className="p-3 text-justify">
+              <p style={{ fontSize: 20 }} className="p-10 text-justify">
                 Queremos ampliar os nossos negócios e ajudar cada vez mais
                 pessoas através da tecnologia, que tem se tornado um dos motores
                 da nossa sociedade atual, para que todos tenham a oportunidade

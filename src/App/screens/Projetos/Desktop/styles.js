@@ -30,6 +30,7 @@ export const ContainerProj = styled.div`
 export const Image = styled.img`
   height: ${props => props.height || "50vh"};
   width: ${props => props.width || "20vw"};
+  object-fit: contain;
 `;
 export const Image2 = styled.div`
   display: flex;
