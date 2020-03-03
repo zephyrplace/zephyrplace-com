@@ -39,6 +39,7 @@ export default function Mobile () {
 
       <ContainerTxt2>
         <Text2 fontStyle='bold'>Fale com a gente</Text2>
+        <br />
         <Text2>contact@zephyrplace.com</Text2>
         <br />
         <br />
