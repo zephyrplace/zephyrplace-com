@@ -1,16 +1,16 @@
-import styled from 'styled-components'
-import Back from '../../../../assets/svg/CaraCaminho.svg'
+import styled from "styled-components";
+import Back from "../../../../assets/svg/CaraCaminho.svg";
 
 export const Container = styled.div`
   min-height: 420vh;
   background: #f8f9fa;
   align-items: center;
-`
+`;
 
 export const ContainerBig = styled.div`
   min-height: 420vh;
   background: #f8f9fa;
-`
+`;
 
 export const ContainerProj = styled.div`
   display: flex;
@@ -21,23 +21,17 @@ export const ContainerProj = styled.div`
   margin-top: 10vh;
   align-items: center;
   justify-content: center;
-  background-image: ${props => `url(${props.background})` || 'none'};
+  background-image: ${props => `url(${props.background})` || "none"};
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: ${props => props.position || 'left'};
-`
+  background-position: ${props => props.position || "left"};
+`;
 
 export const Image = styled.img`
-<<<<<<< HEAD
   height: ${props => props.height || "50vh"};
   width: ${props => props.width || "20vw"};
   object-fit: contain;
 `;
-=======
-  height: ${props => props.height || '50vh'};
-  width: ${props => props.width || '20vw'};
-`
->>>>>>> 63483e00f64aaa63c6cce7079e78ad35eae8de43
 export const Image2 = styled.div`
   display: flex;
   flex-direction: column;
@@ -50,7 +44,7 @@ export const Image2 = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 10vh;
-`
+`;
 
 export const ButtonScrool = styled.div`
   border-radius: 100px;
@@ -61,4 +55,4 @@ export const ButtonScrool = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 10vh;
-`
+`;
