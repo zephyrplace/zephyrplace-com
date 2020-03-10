@@ -1,4 +1,5 @@
 {
+  "homepage": "https://zephyrplace.github.io",
   "name": "zephyrplace",
   "version": "1.0.0",
   "private": true,
@@ -8,6 +9,7 @@
     "@testing-library/user-event": "^7.2.1",
     "animate.css": "^3.7.2",
     "antd": "^3.26.11",
+    "gh-pages": "^2.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-responsive": "^8.0.3",
@@ -19,11 +21,13 @@
   },
   "scripts": {
     "build:style": "tailwind build src/styles/index.css -o src/styles/tailwind.css",
-    "start": "npm run build:style && react-scripts start",
-    "build": "react-scripts build",
     "test": "react-scripts test",
     "fix": "standard --fix",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": "react-app"
