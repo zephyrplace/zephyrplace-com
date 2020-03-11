@@ -6,7 +6,7 @@ import AboutUsScreen from "./screens/AboutUs";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL + "/"}>
       <Switch>
         <Route exact path="/">
           <HomeScreen />
