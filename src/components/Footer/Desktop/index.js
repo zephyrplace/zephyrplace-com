@@ -35,9 +35,15 @@ export default function Desktop() {
       </Img>
       <Line />
       <ContainerTxt>
-        <A onClick={() => history.push("/")}>Home</A>
-        <A onClick={() => history.push("/Projects")}>Projetos</A>
-        <A onClick={() => history.push("/About")}>Sobre Nós</A>
+        <A onClick={() => history.push("/")} href="#top">
+          Home
+        </A>
+        <A onClick={() => history.push("/Projects")} href="#top">
+          Projetos
+        </A>
+        <A onClick={() => history.push("/About")} href="#top">
+          Sobre Nós
+        </A>
       </ContainerTxt>
       <ContainerTxt>
         <div style={{ display: "flex", flexDirection: "column" }}>
