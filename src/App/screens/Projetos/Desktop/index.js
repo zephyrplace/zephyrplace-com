@@ -8,8 +8,11 @@ import {
   ButtonScrool
 } from "./styles";
 import { Link, animateScroll as scroll } from "react-scroll";
-import Menu from "../../../../components/Menu2";
+import Menu from "../../../../components/Menu";
 import Footer from "../../../../components/Footer";
+
+import StickyHeader from "react-sticky-header";
+import "react-sticky-header/styles.css";
 
 import Apoyo from "../../../../assets/image/APOYO/Apoyo.jpg";
 import BPP from "../../../../assets/gif/MockupBPP.gif";
@@ -24,7 +27,7 @@ import Telescopio from "../../../../assets/svg/telescopiobg.svg";
 function DesktopProjects() {
   return (
     <ContainerBig>
-      <Menu />
+      <StickyHeader header={<Menu />}></StickyHeader>
       <Container>
         <Image2>
           <div

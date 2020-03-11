@@ -7,6 +7,8 @@ import { Container, Section, Image, Tools, ContainerDown } from "./styles";
 import Footer from "../../../../components/Footer";
 import { Waves } from "../../../../components/Waves";
 import { Link } from "react-scroll";
+import StickyHeader from "react-sticky-header";
+import "react-sticky-header/styles.css";
 
 import photo from "../../../../assets/svg/Mulher-lampada.svg";
 import section1 from "../../../../assets/svg/Section1.svg";
@@ -21,9 +23,9 @@ export default function DesktopHome() {
   return (
     <div style={{ backgroundColor: "#f8f9fa" }}>
       <Header>
-        <Menu />
+        <StickyHeader header={<Menu />}> </StickyHeader>
         <div
-          style={{ marginBottom: "-15vh" }}
+          style={{ marginBottom: "-15vh", marginTop: "15vh" }}
           className="aboslute flex flex-wrap flex-1 items-center"
         >
           <div className="flex w-full md:w-2/5 lg:w-2/6 mx-10">

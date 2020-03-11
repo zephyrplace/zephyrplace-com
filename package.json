@@ -16,6 +16,7 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.0",
     "react-scroll": "^1.7.16",
+    "react-sticky-header": "^0.2.0",
     "styled-components": "^5.0.0",
     "tailwindcss": "^1.1.4"
   },
@@ -27,7 +28,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build && cp build/index.html build/404.html"
   },
   "eslintConfig": {
     "extends": "react-app"

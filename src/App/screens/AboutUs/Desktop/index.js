@@ -1,5 +1,5 @@
 import React from "react";
-import Menu from "../../../../components/Menu2";
+import Menu from "../../../../components/Menu";
 import {
   Container,
   Container2,
@@ -14,12 +14,17 @@ import Equipe3 from "../../../../assets/image/Equipe3/Equipe3.jpg";
 import Equipe4 from "../../../../assets/image/Equipe4/Equipe4.jpg";
 import Equipe5 from "../../../../assets/image/Equipe5/Equipe5.jpg";
 import Equipe6 from "../../../../assets/image/Equipe6/Equipe6.jpg";
+import { Header } from "../../../../styled/Header";
+import StickyHeader from "react-sticky-header";
+import "react-sticky-header/styles.css";
 
 function DesktopAboutUs() {
   return (
     <div>
       <ContainerBig>
-        <Menu />
+        <Header>
+          <StickyHeader header={<Menu />}> </StickyHeader>
+        </Header>
         <Container className="relative">
           <div
             className="absolute right-0"
