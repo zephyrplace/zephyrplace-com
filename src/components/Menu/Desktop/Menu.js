@@ -16,7 +16,10 @@ export default function Desktop() {
       </div>
 
       <div className="flex flex-auto justify-around items-center">
-        <A href="/" className="text-white text-lg font-bold">
+        <A
+          onClick={() => history.push("/")}
+          className="text-white text-lg font-bold"
+        >
           HOME
         </A>
         <A
