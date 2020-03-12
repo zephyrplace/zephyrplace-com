@@ -1,5 +1,5 @@
 import React from "react";
-import Menu from "../../../../components/Menu2";
+import Menu from "../../../../components/Menu";
 import Footer from "../../../../components/Footer";
 import {
   ContainerProj,

@@ -5,6 +5,7 @@ export const Container = styled.div`
   min-height: 420vh;
   background: #f8f9fa;
   align-items: center;
+  margin-top: 10vh;
 `;
 
 export const ContainerBig = styled.div`
@@ -43,7 +44,7 @@ export const Image2 = styled.div`
   background-repeat: no-repeat;
   justify-content: center;
   align-items: center;
-  margin-top: 10vh;
+  margin-top: 12vh;
 `;
 
 export const ButtonScrool = styled.div`
