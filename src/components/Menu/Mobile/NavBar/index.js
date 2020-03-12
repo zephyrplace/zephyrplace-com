@@ -12,7 +12,7 @@ export default function NavBar({ open, onClose }) {
       <br />
       <br />
       <Menu>
-        <Item key="1" onClick={() => history.push("/Main")}>
+        <Item key="1" onClick={() => history.push("/")}>
           <MenuText>Home</MenuText>
         </Item>
         <Item key="2" onClick={() => history.push("/Projects")}>

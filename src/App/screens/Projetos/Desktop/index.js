@@ -36,7 +36,7 @@ function DesktopProjects() {
               flexDirection: "row",
               width: "80vh",
               marginRight: "75vh",
-              marginTop: "2vh"
+              marginTop: "5vh"
             }}
           >
             <p style={{ fontSize: 30 }} className="text-center">
