@@ -1,5 +1,5 @@
 {
-  "homepage": "https://zephyrplace.github.io/",
+  "homepage": "https://zephyrplace.github.io/Home",
   "name": "zephyrplace",
   "version": "1.0.0",
   "private": true,
@@ -25,7 +25,7 @@
     "test": "react-scripts test",
     "fix": "standard --fix",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && npm run build:style",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build && cp build/index.html build/404.html"
