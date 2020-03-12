@@ -8,13 +8,13 @@ export default function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <Switch>
-        <Route exact path="/">
+        <Route exact path={(process.env.PUBLIC_URL = "/")}>
           <HomeScreen />
         </Route>
-        <Route exact path="/Projects">
+        <Route exact path={(process.env.PUBLIC_URL = "/Projects")}>
           <ProjectScreen />
         </Route>
-        <Route exact path="/About">
+        <Route exact path={(process.env.PUBLIC_URL = "/About")}>
           <AboutUsScreen />
         </Route>
       </Switch>
