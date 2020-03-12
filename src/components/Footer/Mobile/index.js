@@ -35,7 +35,7 @@ export default function Mobile() {
       </Img>
       <Line />
       <ContainerTxt>
-        <Text onClick={() => history.push("/")}>Home</Text>
+        <Text onClick={() => history.push("/Main")}>Home</Text>
         <Text onClick={() => history.push("/Projects")}>Projetos</Text>
         <Text onClick={() => history.push("/About")}>Sobre Nós</Text>
       </ContainerTxt>

@@ -23,7 +23,7 @@ export default function Desktop() {
 
       <div className="flex flex-auto justify-around items-center">
         <A
-          onClick={() => history.push("/")}
+          onClick={() => history.push("/Main")}
           className="text-white text-lg font-bold"
         >
           HOME
