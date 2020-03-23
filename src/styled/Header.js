@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import StickyHeader from "react-sticky-header";
+import styled from 'styled-components'
+import StickyHeader from 'react-sticky-header'
 
 const Header = styled.div`
   display: flex;
@@ -8,7 +8,7 @@ const Header = styled.div`
   /* padding: 2.5rem; */
   max-width: 100vw;
   min-height: 10vh;
-  background-color: ${props => props.backgroundColor || "black"};
-`;
+  background-color: ${props => props.backgroundColor || 'black'};
+`
 
-export { Header };
+export { Header }
