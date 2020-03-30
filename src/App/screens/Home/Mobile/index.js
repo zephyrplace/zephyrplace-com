@@ -78,7 +78,7 @@ function MobileHome () {
                 1. Descubra
               </p>
               <p style={{ fontSize: '3vh' }} className=' mx-8 p-3 text-center'>
-                O primeiro passo é descobir o problema que precisa ser resolvido
+                O primeiro passo é descobrir o problema que precisa ser resolvido
               </p>
             </div>
           </div>
@@ -101,7 +101,7 @@ function MobileHome () {
                 2. Desenvolva um MVP
               </p>
               <p style={{ fontSize: '3vh' }} className=' mx-8 p-5 text-center'>
-                Um MVP é um produto com um conjunto míninmo de recursos que
+                Um MVP é um produto com um conjunto mínimo de recursos que
                 resolve um problema definido
               </p>
             </div>
@@ -127,7 +127,7 @@ function MobileHome () {
               </p>
               <p style={{ fontSize: '3vh' }} className=' mx-10 p-5 text-center'>
                 Quando o produto estiver pronto para ser amplamente distribuido,
-                ele já terá clientes estabelicidos
+                ele já terá clientes estabelecidos
               </p>
             </div>
           </div>
@@ -154,7 +154,7 @@ function MobileHome () {
                 className=' mx-10 p-3 text-center '
               >
                 Medir as reações e comportamentos dos clientes em relação aos
-                produtos contruídos e, em seguida, decidir se deve perseverar ou
+                produtos construídos e, em seguida, decidir se deve perseverar ou
                 dinamizar a ideia
               </p>
             </div>
@@ -179,8 +179,8 @@ function MobileHome () {
                 5. Aprenda
               </p>
               <p style={{ fontSize: '3vh' }} className=' mx-10 p-5 text-center'>
-                O objetivo de um MVP é a menira mais barata de testar sua
-                solução e ajudar a inicar o processo de aprendizado o mais
+                O objetivo de um MVP é a maneira mais barata de testar sua
+                solução e ajudar a iniciar o processo de aprendizado o mais
                 rápido possível
               </p>
             </div>
@@ -205,7 +205,7 @@ function MobileHome () {
               </p>
               <p style={{ fontSize: '3vh' }} className=' mx-10 text-center'>
                 Expanda para o mercado e atraia mais usuários, saiba que você
-                pode realmente investir em uma ideia testada e validade
+                pode realmente investir em uma ideia testada e validada
               </p>
             </div>
           </div>

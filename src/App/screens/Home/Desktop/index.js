@@ -26,7 +26,7 @@ export default function DesktopHome () {
         <StickyHeader header={<Menu />}> </StickyHeader>
         <div
           style={{ marginBottom: '-15vh', marginTop: '15vh' }}
-          className='aboslute flex flex-wrap flex-1 items-center'
+          className='absolute flex flex-wrap flex-1 items-center'
         >
           <div className='flex w-full md:w-2/5 lg:w-2/6 mx-10'>
             <img src={photo} className='flex-1  object-cover' alt='img' />
@@ -77,7 +77,7 @@ export default function DesktopHome () {
                 1. Descubra
               </p>
               <p style={{ fontSize: 20 }} className=' mx-8 p-3'>
-                O primeiro passo é descobir o problema que precisa ser resolvido
+                O primeiro passo é descobrir o problema que precisa ser resolvido
               </p>
             </div>
           </div>
@@ -97,7 +97,7 @@ export default function DesktopHome () {
                 2. Desenvolva um MVP
               </p>
               <p style={{ fontSize: 20 }} className=' mx-8 p-5'>
-                Um MVP é um produto com um conjunto míninmo de recursos que
+                Um MVP é um produto com um conjunto mínimo de recursos que
                 resolve um problema definido
               </p>
             </div>
@@ -126,7 +126,7 @@ export default function DesktopHome () {
               </p>
               <p style={{ fontSize: 20 }} className=' mx-10 p-5'>
                 Quando o produto estiver pronto para ser amplamente distribuido,
-                ele já terá clientes estabelicidos
+                ele já terá clientes estabelecidos
               </p>
             </div>
           </div>
@@ -147,7 +147,7 @@ export default function DesktopHome () {
               </p>
               <p style={{ fontSize: 20 }} className=' mx-10 p-3'>
                 Medir as reações e comportamentos dos clientes em relação aos
-                produtos contruídos e, em seguida, decidir se deve perseverar ou
+                produtos construídos e, em seguida, decidir se deve perseverar ou
                 dinamizar a ideia
               </p>
             </div>
@@ -175,8 +175,8 @@ export default function DesktopHome () {
                 5. Aprenda
               </p>
               <p style={{ fontSize: 20 }} className=' mx-10 p-5'>
-                O objetivo de um MVP é a menira mais barata de testar sua
-                solução e ajudar a inicar o processo de aprendizado o mais
+                O objetivo de um MVP é a maneira mais barata de testar sua
+                solução e ajudar a iniciar o processo de aprendizado o mais
                 rápido possível
               </p>
             </div>
@@ -198,7 +198,7 @@ export default function DesktopHome () {
               </p>
               <p style={{ fontSize: 20 }} className=' mx-10'>
                 Expanda para o mercado e atraia mais usuários, saiba que você
-                pode realmente investir em uma ideia testada e validade
+                pode realmente investir em uma ideia testada e validada
               </p>
             </div>
             <div style={{ marginRight: '13vw' }}>
