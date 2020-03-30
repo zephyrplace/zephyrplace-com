@@ -31,12 +31,13 @@ import Git from '../../../../assets/image/Git/balao_git.png'
 import Node from '../../../../assets/image/Node/balao_node.png'
 import Reacts from '../../../../assets/image/Balao/balao_react.png'
 import XD from '../../../../assets/image/XD/balao_xd.png'
-
+import StickyHeader from 'react-sticky-header'
+import 'react-sticky-header/styles.css'
 function MobileHome () {
   return (
     <div>
       <Header>
-        <Menu />
+        <StickyHeader header={<Menu />}> </StickyHeader>
         <HeadContainer>
           <TextTitle>
             <strong>Renove</strong> seus aplicativos com as

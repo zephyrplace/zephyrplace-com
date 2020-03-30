@@ -28,6 +28,9 @@ export const Logo = styled.div`
     height: 20vh;
     width: 50vw;
   }
+  @media (max-width: 360px) {
+    margin-left: 25vw;
+  }
 `
 
 export const Img2 = styled.img`
